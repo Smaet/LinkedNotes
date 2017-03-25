@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>a04a6a4f-8c2e-40e2-a642-dad438f46ba2</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\fs18\'b1\'b8\'c1\'b6\'c3\'bc\f0\fs20  \f1\fs18\'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20\par
+  - \f1\fs18\'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20  \f1\fs18\'be\'b2\'b5\'ed\'c0\'cc \'be\'d5\'bf\'a1 \'c0\'da\'b7\'e1\'c7\'fc\'c0\'bb \'b1\'b8\'c1\'b6\'c3\'bc\'b7\'ce \'c0\'e2\'b0\'ed \'be\'b2\'b4\'c2 \'b0\'cd\par
+\par
+\par
+int main() \par
+\{\par
+\par
+  struct st \par
+\{\par
+  int id;\par
+  char *name;\par
+  char *address;\par
+  \};\par
+\par
+  struct st employee, *stptr;\par
+  stptr = &amp;employee;\par
+  stptr-&gt;id = 1;\par
+  stptr-&gt;name = "\'c8\'ab\'b1\'e6\'b5\'bf";\par
+  stptr-&gt;address ="\'bc\'ad\'bf\'ef";\par
+\par
+  printf("\'c1\'f7\'bf\'f8 \'be\'c8\'b3\'bb: \'be\'c6\'c0\'cc\'b5\'f0=%d\\n%s\\n%s\\n", stptr-&gt;id, stptr-&gt;name,\par
+  stptr-&gt;\f0 a\f1 ddress);\par
+  return 0;\par
+\par
+\}\par
+\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>구조체 포인터</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-24T23:41:40.0897268+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:36:04.2574128+09:00</UpdatedOn>
+  <Words>*구조체 포인터
+  - 포인터 쓰듯이 앞에 자료형을 구조체로 잡고 쓰는 것
+
+
+int main() 
+{
+
+  struct st 
+{
+  int id;
+  char *name;
+  char *address;
+  };
+
+  struct st employee, *stptr;
+  stptr = &amp;employee;
+  stptr-&gt;id = 1;
+  stptr-&gt;name = "홍길동";
+  stptr-&gt;address ="서울";
+
+  printf("직원 안내: 아이디=%d\n%s\n%s\n", stptr-&gt;id, stptr-&gt;name,
+  stptr-&gt;address);
+  return 0;
+
+}
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

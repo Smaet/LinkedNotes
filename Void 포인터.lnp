@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>21239e15-10ce-4b6e-b147-f9c9b370dd4e</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\fs18 Void \f1\'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20\par
+  - void \f1\fs18\'c6\'f7\'c0\'ce\'c5\'cd\'b4\'c2 \'ba\'af\'bc\'f6 ,\'c7\'d4\'bc\'f6, \'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20  \f1\fs18\'c1\'d6\'bc\'d2\'b1\'ee\'c1\'f6 \'b9\'ab\'be\'f9\'c0\'cc\'b5\'e7 \'c0\'fa\'c0\'e5\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'d1 \'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20  \f1\fs18\'ba\'af\'bc\'f6\'c0\'cc\'b8\'e7 \'bb\'e7\'bf\'eb \'b9\'e6\'b9\'fd\'bf\'a1\'b4\'c2 \'c2\'f7\'c0\'cc\'b0\'a1 \'be\'f8\'b4\'d9.\par
+ - \'c6\'af\'c2\'a1\'c0\'b8\'b7\'ce\'b4\'c2 \'c1\'d6\'bc\'d2\'b0\'aa\'c0\'bb \'c0\'fa\'c0\'e5\'c7\'d8 \'b5\'ce\'b0\'ed, \'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20  \f1\fs18\'c5\'b8\'c0\'d4\'c0\'ba \'b3\'aa\'c1\'df\'bf\'a1 \'b0\'e1\'c1\'a4\'c7\'cf\'b0\'da\'b4\'d9\'b6\'f3\'b4\'c2 \'c6\'af\'c2\'a1\'c0\'cc \'c0\'d6\'b4\'d9.\par
+ - \f0 Callback \f1\'c7\'d4\'bc\'f6\par
+\par
+\'bf\'b9)\par
+  \f0 int n = 2;\par
+  void *ptr;\par
+  ptr = &amp;n;\par
+  std::cout&lt;&lt;*(int*)ptr &lt;&lt; std::endl;\f1\par
+\f0\fs20\par
+\par
+&lt;\f1\'c2\'fc\'b0\'ed&gt;\par
+-http://blog.daum.net/coolprogramming/34\f0\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>Void 포인터</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-18T15:11:47.4615885+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-21T21:44:55.6508223+09:00</UpdatedOn>
+  <Words>*Void 포인터
+  - void 포인터는 변수 ,함수, 포인터 주소까지 무엇이든 저장이 가능한 포인터 변수이며 사용 방법에는 차이가 없다.
+ - 특징으로는 주소값을 저장해 두고, 포인터 타입은 나중에 결정하겠다라는 특징이 있다.
+ - Callback 함수
+
+예)
+  int n = 2;
+  void *ptr;
+  ptr = &amp;n;
+  std::cout&lt;&lt;*(int*)ptr &lt;&lt; std::endl;
+
+
+&lt;참고&gt;
+-http://blog.daum.net/coolprogramming/34</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

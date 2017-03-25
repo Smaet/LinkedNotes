@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>b35928df-7b4c-43fb-9fc8-89f17cfb8a81</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil DotumChe;}{\f4\fnil\fcharset0 DotumChe;}}
+{\colortbl ;\red0\green0\blue255;\red255\green255\blue255;\red0\green0\blue0;\red128\green128\blue128;}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\fs18\'b0\'aa\'bf\'a1 \'c0\'c7\'c7\'d1 \'c8\'a3\'c3\'e2(\f0 Call by Value)\par
+\f1\par
+  - \'b0\'aa\'bf\'a1\'c0\'c7\'c7\'d1 \'c8\'a3\'c3\'e2 \'b9\'e6\'bd\'c4\'bf\'a1\'bc\'ad\'b4\'c2 \'c7\'d4\'bc\'f6\'b3\'bb\'c0\'c7 \'c0\'ce\'c0\'da\'bf\'a1 \'ba\'af\'c7\'fc\'c0\'bb \'b0\'a1\'c7\'cf\'b4\'f5\'b6\'f3\'b5\'b5 \'c8\'a3\'c3\'e2\'c3\'f8\'c0\'c7 \'c0\'ce\'c0\'da\'bf\'a1\'b4\'c2 \'b0\'aa\'c0\'c7 \'ba\'af\'b5\'bf\'c0\'cc \'be\'f8\'b4\'d9\par
+  - \'b5\'fb\'b6\'f3\'bc\'ad \f0 Swap\f1\'c7\'cf\'b4\'c2 \'c7\'d4\'bc\'f6\'bf\'a1 \'b0\'e6\'bf\'ec \'b1\'d7\'b3\'c9 \'b0\'aa\'c0\'bb \'b9\'d9\'b2\'dc\'b7\'c1\'b0\'ed \'c7\'cf\'b8\'e9 \'bd\'c7\'c1\'a6\'b7\'ce\'b4\'c2 \'b9\'d9\'b2\'ee\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9.\par
+  \f2\'bf\'b9)\par
+\par
+\cf1\highlight2\f3\fs19 void\cf3  Swap(\cf1 int\cf3  \cf4 a\cf3 , \cf1 int\cf3  \cf4 b\cf3 )\par
+\{\par
+\tab\cf1 int\cf3  tmp;\par
+\tab tmp = \cf4 a\cf3 ;\par
+\tab\cf4 a\cf3  = \cf4 b\cf3 ;\par
+\tab\cf4 b\cf3  = tmp;\par
+\}\par
+\f4   - \f2\fs18\'c0\'a7\'bf\'cd \'b0\'b0\'c0\'ba \'b0\'e6\'bf\'ec  \f4 a,b\f2\'b4\'c2 \'b9\'d9\'b2\'ee\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9. \'b9\'d9\'b2\'dc\'b7\'c1\'b4\'c2 \'c2\'fc\'c1\'b6\'bf\'a1 \'c0\'c7\'c7\'d1 \'c8\'a3\'c3\'e2\cf0\highlight0\fs20\'c0\'bb \'bd\'c7\'c7\'e0 \'c7\'d8\'be\'df\'c7\'d1\'b4\'d9.\f0\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>값에 의한 호출</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-21T21:45:10.6966057+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:49:49.7452694+09:00</UpdatedOn>
+  <Words>*값에 의한 호출(Call by Value)
+
+  - 값에의한 호출 방식에서는 함수내의 인자에 변형을 가하더라도 호출측의 인자에는 값의 변동이 없다
+  - 따라서 Swap하는 함수에 경우 그냥 값을 바꿀려고 하면 실제로는 바뀌지 않는다.
+  예)
+
+void Swap(int a, int b)
+{
+	int tmp;
+	tmp = a;
+	a = b;
+	b = tmp;
+}
+  - 위와 같은 경우  a,b는 바뀌지 않는다. 바꿀려는 참조에 의한 호출을 실행 해야한다.</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

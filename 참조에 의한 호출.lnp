@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>f16265ab-74fa-416e-8fb8-6e60b2df1fc9</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil DotumChe;}{\f3\fnil\fcharset0 DotumChe;}}
+{\colortbl ;\red0\green0\blue255;\red255\green255\blue255;\red0\green0\blue0;\red128\green128\blue128;}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\fs18\'c2\'fc\'c1\'b6\'bf\'a1 \'c0\'c7\'c7\'d1 \'c8\'a3\'c3\'e2(\f0 Call by Referece)\f1\par
+  -\'c2\'fc\'c1\'b6\'bf\'a1 \'c0\'c7\'c7\'d1 \'c8\'a3\'c3\'e2\'c0\'ba \'c7\'d4\'bc\'f6 \'c8\'a3\'c3\'e2\'bd\'c3 \'c0\'ce\'c0\'da\'bf\'a1 \'ba\'af\'bc\'f6\'c0\'c7 \'c1\'d6\'bc\'d2\'b0\'aa\'c0\'bb \'b3\'d1\'b1\'e2\'b4\'c2 \'b0\'cd\'c0\'b8\'b7\'ce \'ba\'b9\'bb\'e7 \'bb\'fd\'bc\'ba\'c0\'da\'b0\'a1 \'c0\'cf\'be\'ee\'b3\'aa\'c1\'f6 \'be\'ca\'be\'c6 \'b8\'de\'b8\'f0\'b8\'ae\'c0\'c7 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'cc\'b3\'aa \'c0\'ce\'c0\'da\'c0\'c7 \'b0\'aa\'c0\'cc \'bd\'c7\'c1\'a6\'b7\'ce \'b9\'d9\'b2\'f0\'bc\'f6\'b0\'a1 \'c0\'d6\'be\'ee \'c1\'d6\'c0\'c7\'b8\'a6 \'c7\'ca\'bf\'e4\'c7\'d1\'b4\'d9.\par
+ \'bf\'b9)\par
+  \cf1\highlight2\f2\fs19 void\cf3  Swap(\f0\fs18 const \cf1\f2\fs19 int\cf3  *\cf4 a\cf3 , \f0 const \cf1\f2 int\cf3  *\cf4 b\cf3 )\par
+\{\par
+\tab\cf1 int\cf3  tmp;\par
+\tab tmp = *\cf4 a\cf3 ;\par
+\tab *\cf4 a\cf3  = *\cf4 b\cf3 ;\par
+\tab *\cf4 b\cf3  = tmp;\par
+\}\par
+\f3  - \f1\fs18\'b3\'d1\'b1\'e2\'b4\'c2 \'c0\'ce\'c0\'da\'b8\'a6 \'c6\'f7\'c0\'ce\'c5\'cd\'b7\'ce \'b9\'de\'be\'c6\'bc\'ad \'b9\'d9\'b2\'e3\'c1\'d8\'b4\'d9.\cf0\highlight0\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>참조에 의한 호출</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-21T21:45:22.698159+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:51:56.9965034+09:00</UpdatedOn>
+  <Words>*참조에 의한 호출(Call by Referece)
+  -참조에 의한 호출은 함수 호출시 인자에 변수의 주소값을 넘기는 것으로 복사 생성자가 일어나지 않아 메모리의 효율적이나 인자의 값이 실제로 바뀔수가 있어 주의를 필요한다.
+ 예)
+  void Swap(const int *a, const int *b)
+{
+	int tmp;
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+ - 넘기는 인자를 포인터로 받아서 바꿔준다.</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

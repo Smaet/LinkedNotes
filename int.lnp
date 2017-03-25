@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>3c9ec5aa-4d3a-4886-bb2e-1865762e98cb</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *int\par
+\f1\fs18\'c5\'a9\'b1\'e2 : 4\f0 byte\par
+\f1\'b9\'fc\'c0\'a7 : -2,147,483,648 ~ 2,147,483,647\par
+\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>int</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-25T13:25:12.703511+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:27:05.1199207+09:00</UpdatedOn>
+  <Words>*int
+크기 : 4byte
+범위 : -2,147,483,648 ~ 2,147,483,647
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

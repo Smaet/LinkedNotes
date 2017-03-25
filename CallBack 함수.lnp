@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>c9264da8-3391-4a10-85d0-07b9d8a63196</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *CallBack \f1\fs18\'c7\'d4\'bc\'f6\par
+\par
+ - \'c8\'a3\'c3\'e2\'b5\'c9 \'c7\'d4\'bc\'f6\'b8\'a6 \'be\'cb\'b7\'c1 \'c1\'d6\'be\'ee \'b4\'d9\'b8\'a5 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5 \'b6\'c7\'b4\'c2 \'b4\'d9\'b8\'a5 \'b8\'f0\'b5\'e2\'bf\'a1\'bc\'ad \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'cf\'b0\'d4 \'c7\'cf\'b4\'c2 \'b9\'e6\'b9\'fd \'c0\'cc\'b0\'ed \'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce \'bf\'ee\'bf\'b5\'c3\'bc\'c1\'a6(\f0 OS)\f2\'b0\'a1 \'c8\'a3\'c3\'e2 \'c7\'d2 \'be\'d6\'c7\'c3\'b8\'ae\'c4\'c9\'c0\'cc\'bc\'c7\'c0\'c7 \'c7\'d4\'bc\'f6\'b8\'a6 \'c1\'f6\'c1\'a4\'c7\'d8 \'c6\'af\'c1\'a4\'c7\'d1 \'bb\'e7\'b0\'c7 \'b6\'c7\'b4\'c2 \'b8\'de\'bc\'bc\'c1\'f6\'b0\'a1 \'b9\'df\'bb\'fd\'c7\'df\'c0\'bb\'b6\'a7 \'c8\'a3\'c3\'e2\'c7\'cf\'b5\'b5\'b7\'cf \'c1\'f6\'c1\'a4\'b5\'b5 \'c7\'d2\'bc\'f6 \'c0\'d6\'b4\'d9.\par
+ - \'b1\'d7\'b3\'c9 \'c7\'d4\'bc\'f6\'bf\'cd \f0 CallBack\f2\'c7\'d4\'bc\'f6\'c0\'c7 \'c2\'f7\'c0\'cc\'c1\'a1\'c0\'ba '\'c1\'a6\'be\'ee\'b1\'c7'\par
+  -&gt; \'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce\'b4\'c2 \'b1\'d7\'b3\'c9 \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'cf\'b8\'e9 \'b1\'d7\'b3\'c9 \'ba\'ce\'b8\'a3\'b0\'ed \'b1\'d7 \'c7\'d4\'bc\'f6\'bf\'a1 \'b4\'eb\'c7\'d1 \'b3\'bb\'bf\'eb\'c0\'bb \'c3\'b3\'b8\'ae\'c7\'cf\'b4\'c2 \'c7\'fc\'bd\'c4\'c0\'cc\'b6\'f3\'b8\'e9 \f0 CallBack\f2\'c7\'d4\'bc\'f6\'b4\'c2 \'be\'ee\'b6\'b2 \'c0\'cc\'ba\'a5\'c6\'ae\'b0\'a1 \'b9\'df\'bb\'fd \'c7\'df\'c0\'bb \'b6\'a7 \'b3\'aa\'bf\'a1\'b0\'d4 \'be\'cb\'b7\'c1\'b4\'de\'b6\'f3\'b4\'c2 \'b0\'cd\'c0\'cc\'b4\'d9.\par
+ - \'c1\'ef \'c0\'cc \'c7\'d4\'bc\'f6\'b0\'a1 \'c8\'a3\'c3\'e2\'c0\'cc \'b5\'c7\'be\'fa\'b4\'c2\'c1\'f6 \'be\'c8\'b5\'c7\'be\'fa\'b4\'c2\'c1\'f6 \'be\'cb\'bc\'f6\'b0\'a1 \'c0\'d6\'b4\'d9.\par
+ - \'ba\'f1\'b5\'bf\'b1\'e2 \'bd\'c3\'bf\'a1 \'bb\'e7\'bf\'eb\'c7\'cf\'b8\'e9 \'c1\'c1\'b4\'d9.\par
+\par
+\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>CallBack 함수</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-18T15:18:09.3025307+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:21:45.0761804+09:00</UpdatedOn>
+  <Words>*CallBack 함수
+
+ - 호출될 함수를 알려 주어 다른 프로그램 또는 다른 모듈에서 함수를 호출하게 하는 방법 이고 일반적으로 운영체제(OS)가 호출 할 애플리케이션의 함수를 지정해 특정한 사건 또는 메세지가 발생했을때 호출하도록 지정도 할수 있다.
+ - 그냥 함수와 CallBack함수의 차이점은 '제어권'
+  -&gt; 일반적으로는 그냥 함수를 호출하면 그냥 부르고 그 함수에 대한 내용을 처리하는 형식이라면 CallBack함수는 어떤 이벤트가 발생 했을 때 나에게 알려달라는 것이다.
+ - 즉 이 함수가 호출이 되었는지 안되었는지 알수가 있다.
+ - 비동기 시에 사용하면 좋다.
+
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

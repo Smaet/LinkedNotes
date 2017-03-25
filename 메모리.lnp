@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>ce8a0738-2359-4f58-90c1-f075833eb991</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset0 ??;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}{\f3\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\'b8\'de\'b8\'f0\'b8\'ae\'bf\'a1 \'b0\'fc\'c7\'d8\par
+  -\'b8\'de\'b8\'f0\'b8\'ae\'c0\'c7 \'c8\'bf\'b0\'fa\'c0\'fb\'c0\'ce \'bb\'e7\'bf\'eb\par
+  -\'b8\'de\'b8\'f0\'b8\'ae\'b4\'c2 \'c5\'a9\'b0\'d4 4\'b0\'a1\'c1\'f6\'b7\'ce \'ba\'d0\'b7\'f9\'b5\'c7\'b8\'e7  \f0 Stack, Heap, data, code \f1\'bc\'f8\'c0\'b8\'b7\'ce \'be\'c6\'b7\'a1 -&gt; \'c0\'a7 \'bc\'f8\'c0\'cc\'b4\'d9.\par
+  1. \f0 Stack\par
+   - \f1\'c8\'e7\'c8\'f7 \'c1\'f6\'bf\'aa\'ba\'af\'bc\'f6\'b0\'a1 \'c0\'fa\'c0\'e5\'b5\'c7\'b4\'c2 \'b0\'f7\'c0\'cc\'b8\'e7 \'c0\'d3\'bd\'c3\'ba\'af\'bc\'f6\'b5\'e9\'c0\'cc \'c0\'fa\'c0\'e5\'b5\'c7\'b4\'c2 \'b0\'f7\'c0\'cc\'b1\'e2\'b5\'b5 \'c7\'cf\'b4\'d9.\par
+      -  \'c7\'d4\'bc\'f6\'b0\'a1 \'b3\'a1\'b3\'aa\'b8\'e9 \'bb\'e7\'b6\'f3\'c1\'f8\'b4\'d9.\par
+  2. \f0 Heap\f1\par
+      -  \'c8\'e7\'c8\'f7 \'b5\'bf\'c0\'fb\'ba\'af\'bc\'f6\'b0\'a1 \'c0\'fa\'c0\'e5\'b5\'c7\'b4\'c2 \'b0\'f7\'c0\'cc\'b8\'e7 \'b8\'de\'b8\'f0\'b8\'ae \'b0\'aa\'c0\'c7 \'c0\'c7\'c7\'d8\'bc\'ad\'b8\'b8 \'c2\'fc\'c1\'b6\'b5\'c7\'b0\'ed \'bb\'e7\'bf\'eb\'b5\'c7\'b4\'c2 \'ba\'ce\'ba\'d0\'c0\'cc\'b0\'ed \'c7\'d2\'b4\'e7\'bd\'c3 \'b8\'ed\'bd\'c3\'c0\'fb\'c0\'b8\'b7\'ce \f0 malloc,new\f1  \'bf\'cd \'b0\'b0\'c0\'cc \'bb\'e7\'bf\'eb\'c7\'d8\'be\'df\'c7\'cf\'b8\'e7\par
+          \'c7\'d8\'c1\'a6\'b5\'b5 \'b8\'ed\'bd\'c3\'c0\'fb\'c0\'b8\'b7\'ce \'bd\'e1\'be\'df\'c7\'d1\'b4\'d9 \f0 free,delete\par
+ 3.Data(.bss,.data)\par
+   -\f1   \'c0\'fc\'bf\'aa\'ba\'af\'bc\'f6,\'c1\'a4\'c0\'fb\'ba\'af\'bc\'f6 \'b9\'e8\'bf\'ad, \'b1\'b8\'c1\'b6\'c3\'bc\f2  \f1\'b5\'ee\'c0\'cc \'c7\'d2\'b4\'e7\'c0\'cc \'b5\'c7\'b8\'e7 .\f2 bss\f3\'b4\'c2 \'c3\'ca\'b1\'e2\'c8\'ad \'b5\'c7\'c1\'f6 \'be\'ca\'c0\'ba \'ba\'af\'bc\'f6\'b5\'e9\'c0\'cc \'b5\'e9\'be\'ee\'b0\'a1\'b8\'e7 .\f2 data\f3\'bf\'a1\'b4\'c2 \'c3\'ca\'b1\'e2\'c8\'ad\'b5\'c8 \'ba\'af\'bc\'f6\'b5\'e9\'c0\'cc \'b5\'e9\'be\'ee\'b0\'a3\'b4\'d9.\par
+  4. \f2 Code\par
+      -   \f3\'b4\'d9\'b8\'a5 \'b8\'bb\'b7\'ce \'bc\'bc\'b1\'d7\'b8\'d5\'c6\'ae\'b6\'f3\'b0\'ed\'b5\'b5 \'c7\'cf\'b8\'e7 \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'bf\'a1\'bc\'ad \'bc\'f6\'c7\'e0\'c7\'cf\'b4\'c2 \'b1\'e2\'b0\'e8\'be\'ee\'bf\'cd \'c0\'fc\'bf\'aa \'ba\'af\'bc\'f6\'b5\'e9\'c0\'cc \'b5\'e9\'be\'ee \'c0\'d6\'b4\'d9.\par
+      -  \'b1\'e2\'b0\'e8\'be\'ee\'bf\'a1\'b4\'c2 \'c7\'d4\'bc\'f6\'bf\'cd \'bf\'ac\'bb\'ea \'b1\'b8\'b9\'ae\'b5\'ee\'c0\'cc \'c7\'d8\'b4\'e7\'c0\'cc \'b5\'c7\'b8\'e7 \'c0\'cc \'bf\'b5\'bf\'aa\'c0\'c7 \'c1\'a4\'ba\'b8\'b4\'c2 \f2 read only\f3\'b7\'ce\'bc\'ad \'c0\'fd\'b4\'eb \'ba\'af\'b0\'e6\'b5\'c7\'c1\'f6 \'be\'ca\'be\'c6\'be\'df \'c7\'d1\'b4\'d9.\par
+\par
+0x10000000 (\'c7\'cf\'c0\'a7 \'c1\'d6\'bc\'d2)\par
+ | ...\par
+ | Code(.text)\par
+ |-------------------------------------\par
+ | Data (.data)\par
+ |-------------------------------------\par
+ | Data (.bss)\par
+ |-------------------------------------\par
+ | Heap\par
+ |-------------------------------------\par
+ | Stack\par
+ |-------------------------------------\par
+ | \'c8\'af\'b0\'e6\'ba\'af\'bc\'f6, \'b8\'ed\'b7\'c9\'c3\'a2 \'b5\'a5\'c0\'cc\'c5\'cd \'c0\'fa\'c0\'e5 \'bf\'b5\'bf\'aa\par
+0x1FFFFFFF (\'bb\'f3\'c0\'a7 \'c1\'d6\'bc\'d2)\f2\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>메모리</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-18T15:16:08.8021703+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-21T22:27:25.4543736+09:00</UpdatedOn>
+  <Words>*메모리에 관해
+  -메모리의 효과적인 사용
+  -메모리는 크게 4가지로 분류되며  Stack, Heap, data, code 순으로 아래 -&gt; 위 순이다.
+  1. Stack
+   - 흔히 지역변수가 저장되는 곳이며 임시변수들이 저장되는 곳이기도 하다.
+      -  함수가 끝나면 사라진다.
+  2. Heap
+      -  흔히 동적변수가 저장되는 곳이며 메모리 값의 의해서만 참조되고 사용되는 부분이고 할당시 명시적으로 malloc,new 와 같이 사용해야하며
+          해제도 명시적으로 써야한다 free,delete
+ 3.Data(.bss,.data)
+   -  전역변수,정적변수 배열, 구조체 등이 할당이 되며 .bss는 초기화 되지 않은 변수들이 들어가며 .data에는 초기화된 변수들이 들어간다.
+  4. Code
+      -   다른 말로 세그먼트라고도 하며 프로그램에서 수행하는 기계어와 전역 변수들이 들어 있다.
+      -  기계어에는 함수와 연산 구문등이 해당이 되며 이 영역의 정보는 read only로서 절대 변경되지 않아야 한다.
+
+0x10000000 (하위 주소)
+ | ...
+ | Code(.text)
+ |-------------------------------------
+ | Data (.data)
+ |-------------------------------------
+ | Data (.bss)
+ |-------------------------------------
+ | Heap
+ |-------------------------------------
+ | Stack
+ |-------------------------------------
+ | 환경변수, 명령창 데이터 저장 영역
+0x1FFFFFFF (상위 주소)</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

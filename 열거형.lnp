@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>1fce4296-372c-4aab-a9e6-a76bd7625a1c</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\fs18\'bf\'ad\'b0\'c5\'c7\'fc\par
+  -\'bf\'ad\'b0\'c5\'c7\'fc(enumeration)\'c0\'cc\'b6\'f5, \'c0\'cc\'b8\'a7 \'c0\'d6\'b4\'c2 \'c1\'a4\'bc\'f6\'c7\'fc \'bb\'f3\'bc\'f6\'b5\'e9\'c0\'bb \'bf\'ad\'b0\'c5\'c7\'cf\'bf\'a9 \'bb\'f5\'b7\'d3\'b0\'d4 \'b8\'b8\'b5\'e9\'be\'ee\'c1\'f8 \'bb\'e7\'bf\'eb\'c0\'da \'c1\'a4\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'c7\'fc(user-defined data type)\'c0\'cc\'b8\'e7\par
+    \'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce \'bb\'e7\'b6\'f7\'b5\'e9\'c0\'ba \'bc\'f6\'c4\'a1\'ba\'b8\'b4\'d9\'b4\'c2 \'b9\'ae\'c0\'da\'b7\'ce \'c7\'a5\'c7\'f6\'b5\'c7\'b4\'c2 \'b8\'ed\'c4\'aa\'b5\'e9\'c0\'bb \'b4\'f5 \'c0\'df \'b1\'e2\'be\'ef\'c7\'cf\'bf\'a9 \'c4\'da\'b5\'e5\'b8\'a6 \'c0\'db\'bc\'ba\'c7\'d2 \'b6\'a7\'bf\'a1\'b5\'b5 \'bc\'fd\'c0\'da\'ba\'b8\'b4\'d9\'b4\'c2 \'b9\'ae\'c0\'da\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc\par
+    \'b0\'a1\'b5\'b6\'bc\'ba(readability)\'c0\'bb \'b3\'f4\'c0\'cc\'b4\'c2 \'b9\'e6\'b9\'fd \'c1\'df\'bf\'a1 \'c7\'cf\'b3\'aa\par
+\par
+enum Example\par
+ \{\par
+    ONE = 1,\par
+    TWO,\par
+    THREE,\par
+    TEN = 10,\par
+    ELEVEN,\par
+    HUNDRED = 100,\par
+    THOUSAND = 1000\par
+\};\par
+\par
+\fs20\'bf\'ad\'b0\'c5\'c7\'fc \'ba\'af\'bc\'f6\f0\par
+\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>열거형</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-18T16:02:45.9382115+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-24T23:39:26.5293861+09:00</UpdatedOn>
+  <Words>*열거형
+  -열거형(enumeration)이란, 이름 있는 정수형 상수들을 열거하여 새롭게 만들어진 사용자 정의 데이터형(user-defined data type)이며
+    일반적으로 사람들은 수치보다는 문자로 표현되는 명칭들을 더 잘 기억하여 코드를 작성할 때에도 숫자보다는 문자를 사용하는 것이
+    가독성(readability)을 높이는 방법 중에 하나
+
+enum Example
+ {
+    ONE = 1,
+    TWO,
+    THREE,
+    TEN = 10,
+    ELEVEN,
+    HUNDRED = 100,
+    THOUSAND = 1000
+};
+
+열거형 변수
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

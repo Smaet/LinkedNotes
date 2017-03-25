@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>02e006d0-2edf-4592-8907-749a3c6e0253</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset0 ??;}{\f1\fnil\fcharset129 Microsoft Sans Serif;}{\f2\fnil Microsoft Sans Serif;}{\f3\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f4\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae \'bd\'ba\'c0\'a7\'c4\'aa\f2\par
+- \f3\'b8\'b8\'be\'e0 A\'bf\'cd B\'b6\'f3\'b4\'c2 \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'b0\'a1 \'c0\'d6\'b0\'ed A\'b6\'f3\'b4\'c2 \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'c0\'c7 \'bb\'f3\'c5\'c2\'b4\'c2  Running \'c0\'cc\'b0\'ed B\'b6\'f3\'b4\'c2 \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'c0\'c7 \'bb\'f3\'c5\'c2\'b4\'c2 Ready\'b6\'f3\'b0\'ed A\'b4\'c2 Register\'bf\'a1 B\'b4\'c2 \'b8\'de\'b8\'f0\'b8\'ae\'bf\'a1 \'b4\'eb\'b1\'e2\'c7\'cf\'b0\'d4 \'b5\'c8\'b4\'d9\'b0\'ed \'c7\'d1\'b4\'d9\'b8\'e9\par
+ \'be\'ee\'b6\'b0\'c7\'d1 \'b0\'e6\'bf\'ec\'bf\'a1 \'b5\'fb\'b6\'f3 A\'b0\'a1 Ready B\'b0\'a1 Running\'c0\'cc\'b6\'f3\'b4\'c2 \'bb\'f3\'c5\'c2\'b7\'ce \'b9\'d9\'b2\'ee\'b4\'c2 \'b0\'e6\'bf\'ec\'b0\'a1 \'c0\'cf\'be\'ee\'b3\'aa\'b0\'d4 \'b5\'c7\'b4\'c2\'b5\'a5 \'c0\'cc\'b6\'a7 \'b9\'d9\'b2\'ee\'b4\'c2 \'b0\'cd\'c0\'bb \'c4\'c1\'c5\'c3\'bd\'ba\'c6\'ae \'bd\'ba\'c0\'a7\'c4\'aa\'c0\'cc\'b6\'f3\'b0\'ed \'ba\'ce\'b8\'a3\'b0\'ed A\'b4\'c2 \'b8\'de\'b8\'f0\'b8\'ae\'b7\'ce\'b0\'a1\'b0\'d4\'b5\'c7\'b0\'ed \par
+B\'b4\'c2 \'b7\'b9\'c1\'f6\'bd\'ba\'c5\'cd\'b7\'ce \'b0\'a1\'b0\'d4 \'b5\'c8\'b4\'d9.\par
+\par
+ - \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'b4\'c2 \'b5\'b6\'b8\'b3\'c0\'fb\'c0\'cc\'b0\'ed \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba\'b0\'a3\'bf\'a1 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c1\'d6\'b0\'ed \'b9\'de\'c0\'bb\'bc\'f6\'b0\'a1 \'be\'f8\'c0\'b8\'b8\'e9 IPC\'b6\'f3\'b4\'c2 \'b0\'cd\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9\'b8\'e9 \'c5\'eb\'bd\'c5\'c0\'bb \'c1\'d6\'b0\'ed \'b9\'de\'c0\'bb\'bc\'f6\'b5\'b5 \'be\'f8\'b4\'d9 \'b1\'d7\'b7\'af\'b9\'c7\'b7\'ce \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae \'bd\'ba\'c0\'a7\'c4\'aa\'c0\'cc \'c0\'cf\'be\'ee\'b3\'af\'b6\'a7\par
+\'bc\'ba\'b4\'c9\'c0\'fa\'c7\'cf\'bf\'cd \'bf\'c0\'b9\'f6\'c7\'ec\'b5\'e5\'b0\'a1 \'b9\'df\'bb\'fd\'b5\'c7\'b0\'d4\'b5\'c8\'b4\'d9 \'b1\'d7\'b7\'af\'b3\'aa \'be\'b2\'b7\'b9\'b5\'e5\'b4\'c2 \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba \'be\'c8\'bf\'a1\'bc\'ad \'b5\'b9\'be\'c6\'b0\'a1\'b9\'c7\'b7\'ce Stack\'c0\'bb \'c1\'a6\'bf\'dc\'c7\'d1 heap,data,code\'b8\'a6 \'b0\'f8\'c0\'af\'b8\'a6 \'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae \'bd\'ba\'c0\'a7\'c4\'aa\'c0\'cc \'c0\'cf\'be\'ee\'b3\'af\'b6\'a7 \'c7\'c1\'b7\'ce\'bc\'bc\'bd\'ba \'ba\'b8\'b4\'d9\'b4\'c2 \'c0\'fb\'c0\'ba \'bc\'ba\'b4\'c9\'c0\'fa\'c7\'cf\'bf\'cd \'bf\'c0\'b9\'f6\'c7\'ec\'b5\'e5\'b0\'a1 \'c0\'cf\'be\'ee\'b3\'ad\'b4\'d9.\f4\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>컨텍스트 스위칭</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-21T22:31:40.487807+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-24T23:33:44.7630954+09:00</UpdatedOn>
+  <Words>*컨텍스트 스위칭
+- 만약 A와 B라는 프로세스가 있고 A라는 프로세스의 상태는  Running 이고 B라는 프로세스의 상태는 Ready라고 A는 Register에 B는 메모리에 대기하게 된다고 한다면
+ 어떠한 경우에 따라 A가 Ready B가 Running이라는 상태로 바뀌는 경우가 일어나게 되는데 이때 바뀌는 것을 컨택스트 스위칭이라고 부르고 A는 메모리로가게되고 
+B는 레지스터로 가게 된다.
+
+ - 프로세스는 독립적이고 프로세스간에 데이터를 주고 받을수가 없으면 IPC라는 것을 이용하지 않는다면 통신을 주고 받을수도 없다 그러므로 컨텍스트 스위칭이 일어날때
+성능저하와 오버헤드가 발생되게된다 그러나 쓰레드는 프로세스 안에서 돌아가므로 Stack을 제외한 heap,data,code를 공유를 하기 때문에 컨텍스트 스위칭이 일어날때 프로세스 보다는 적은 성능저하와 오버헤드가 일어난다.</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

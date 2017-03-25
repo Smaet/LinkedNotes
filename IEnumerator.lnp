@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>bd59bd55-985e-4aba-bec7-70c011628538</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *IEnumerator\par
+\par
+  -  \f1\'c1\'a6\'b3\'d7\'b8\'af \'c4\'c3\'b7\'ba\'bc\'c7\'c0\'bb \'b4\'dc\'bc\'f8\'c7\'cf\'b0\'d4 \'b9\'dd\'ba\'b9\'c7\'d2 \'bc\'f6 \'c0\'d6\'b5\'b5\'b7\'cf \'c1\'f6\'bf\'f8\'c7\'d5\'b4\'cf\'b4\'d9.(MS)\par
+  - \'b3\'bb\'ba\'ce \'c4\'c3\'b7\'ba\'bc\'c7\'c0\'bb \'bc\'f6\'c1\'a4\'c7\'d2 \'bc\'f6\'b4\'c2 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.(MS)\par
+  \par
+  -IEnumerator\'b4\'c2 \'b4\'dc\'c1\'f6 interface\'c0\'cc\'b9\'c7\'b7\'ce \'b8\'e2\'b9\'f6\'b5\'e9\'c0\'cc \'be\'ee\'b6\'b2\'b0\'d4 Implementation\'b5\'c7\'c0\'d6\'b4\'c2\'c1\'f6\'b4\'c2 \'c1\'a4\'c0\'c7\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9.\par
+  -IEnumerator\'b4\'c2 Current\'bf\'cd MoveNext()\'b6\'f3\'b4\'c2 \'b8\'e2\'b9\'f6 \'c7\'d4\'bc\'f6\'b8\'a6 \'b0\'a1\'c1\'f8\'b4\'d9.\par
+  -\'c7\'f6\'c0\'e7 \'b8\'ee\'b9\'f8\'c2\'b0 \'b1\'ee\'c1\'f6 \'c0\'d0\'be\'fa\'b4\'c2\'c1\'f6(State)\'b8\'a6 \'b1\'e2\'be\'ef\'c7\'d1\'b4\'d9.\par
+  -Current\'b4\'c2 \'c7\'f6\'c0\'e7 \'bd\'c3\'c4\'fd\'bd\'ba\'c0\'c7 \'c4\'bf\'bc\'ad\'bf\'a1 \'b4\'eb\'c7\'d1 \'bf\'e4\'bc\'d2\'b8\'a6 \'b0\'a1\'c1\'f8 \'bc\'d3\'bc\'ba\'c0\'cc\'b4\'d9.\par
+  -MoveNext()\'b4\'c2 \'c7\'f6\'c0\'e7 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1\'bc\'ad \'b4\'d9\'c0\'bd \'bd\'c3\'c4\'f6\'bd\'ba\'b7\'ce \'c1\'f8\'c7\'e0\'c7\'cf\'b5\'b5\'b7\'cf \'c7\'cf\'b4\'c2 \'c7\'d4\'bc\'f6\'c0\'cc\'b4\'d9.\par
+  -IEnumerator\'b4\'c2 interface\'c0\'cc\'b9\'c7\'b7\'ce \'bb\'f3\'bc\'d3\'b9\'de\'c0\'ba class\'b8\'a6 \'b1\'b8\'c7\'f6\'c7\'d8\'be\'df \'c7\'cf\'c1\'f6\'b8\'b8 C#\'bf\'a1\'bc\'ad\'b4\'c2 \'b8\'ee\'b0\'a1\'c1\'f6 Rule\'b8\'b8 \'b5\'fb\'b8\'a5\'b4\'d9\'b8\'e9\par
+\'c4\'c4\'c6\'c4\'c0\'cf\'b7\'af\'b0\'a1 \'c0\'da\'b5\'bf\'c0\'b8\'b7\'ce IEnumerator \'b1\'b8\'c7\'f6\'c3\'bc\'b8\'a6 \'c4\'c4\'c6\'c4\'c0\'cf \'c5\'b8\'c0\'d3\'bf\'a1 \'c0\'da\'b5\'bf\'c0\'b8\'b7\'ce \'bb\'fd\'bc\'ba\par
+  \par
+  - List&lt;int&gt; nList = new List&lt;int&gt;();\par
+\par
+           nList.Add(1);\par
+           nList.Add(2);\par
+           nList.Add(3);\par
+\par
+     IEnumerator&lt;int&gt; i = nList.GetEnumerator();\par
+            System.Console.WriteLine("\{0\}", i.Current);\par
+            i.MoveNext();\par
+            System.Console.WriteLine("\{0\}", i.Current);\par
+            i.Reset();\par
+            System.Console.WriteLine("\{0\}", i.Current);\par
+\par
+\par
+  *Iterator block\par
+\tab -Iterator block\'c0\'cc\'b6\'f5 \'c0\'cf\'b9\'dd \'c7\'d4\'bc\'f6\'bf\'cd \'b4\'d9\'b8\'a3\'c1\'f6 \'be\'ca\'c1\'f6\'b8\'b8 a)IEnumerator\'b8\'a6 \'b8\'ae\'c5\'cf\'c7\'d2\'b0\'cd, b)yield\'c5\'b0\'bf\'f6\'b5\'e5\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d2\'b0\'cd \'c0\'cc \'b5\'ce\'b0\'a1\'c1\'f6\'b8\'a6 \'b0\'ae\'c3\'df\'b8\'e9 Iterator block\'c0\'cc \'b5\'c8\'b4\'d9.\par
+  *yield\'b6\'f5?(\f0 Unity\f1\'c7\'d1\'c1\'a4)\par
+\tab -yield \'c5\'b0\'bf\'f6\'b5\'e5\'b4\'c2 \'b7\'ce\'c1\'f7 \'bd\'c3\'c4\'f6\'bd\'ba\'bf\'a1\'bc\'ad \'b4\'d9\'c0\'bd\'bf\'a1 \'b3\'aa\'bf\'c3 \'b0\'aa\'c0\'cc \'b9\'ab\'be\'f9\'c0\'ce\'c1\'f6 \'c8\'a4\'c0\'ba \'b0\'aa\'c0\'cc \'b4\'f5\'c0\'cc\'bb\'f3 \'be\'f8\'c1\'f6\'b4\'c2 \'b0\'a1\'b8\'a3\'c3\'c4\'c1\'d6\'b4\'c2 \'c5\'b0\'bf\'f6\'b5\'e5\par
+  \par
+\par
+\f0\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>IEnumerator</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-21T22:27:47.3202804+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T11:01:37.5718477+09:00</UpdatedOn>
+  <Words>*IEnumerator
+
+  -  제네릭 컬렉션을 단순하게 반복할 수 있도록 지원합니다.(MS)
+  - 내부 컬렉션을 수정할 수는 없습니다.(MS)
+  
+  -IEnumerator는 단지 interface이므로 멤버들이 어떤게 Implementation되있는지는 정의하지 않는다.
+  -IEnumerator는 Current와 MoveNext()라는 멤버 함수를 가진다.
+  -현재 몇번째 까지 읽었는지(State)를 기억한다.
+  -Current는 현재 시퀸스의 커서에 대한 요소를 가진 속성이다.
+  -MoveNext()는 현재 시퀀스에서 다음 시퀀스로 진행하도록 하는 함수이다.
+  -IEnumerator는 interface이므로 상속받은 class를 구현해야 하지만 C#에서는 몇가지 Rule만 따른다면
+컴파일러가 자동으로 IEnumerator 구현체를 컴파일 타임에 자동으로 생성
+  
+  - List&lt;int&gt; nList = new List&lt;int&gt;();
+
+           nList.Add(1);
+           nList.Add(2);
+           nList.Add(3);
+
+     IEnumerator&lt;int&gt; i = nList.GetEnumerator();
+            System.Console.WriteLine("{0}", i.Current);
+            i.MoveNext();
+            System.Console.WriteLine("{0}", i.Current);
+            i.Reset();
+            System.Console.WriteLine("{0}", i.Current);
+
+
+  *Iterator block
+	-Iterator block이란 일반 함수와 다르지 않지만 a)IEnumerator를 리턴할것, b)yield키워드를 사용할것 이 두가지를 갖추면 Iterator block이 된다.
+  *yield란?(Unity한정)
+	-yield 키워드는 로직 시퀀스에서 다음에 나올 값이 무엇인지 혹은 값이 더이상 없지는 가르쳐주는 키워드
+  
+
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

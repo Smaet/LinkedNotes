@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>1bca3d27-d7a0-4d69-bc3e-d243a5d6a06b</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fmodern\fprq1\fcharset0 ??;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\'c6\'f7\'c0\'ce\'c5\'cd\par
+  -\'c6\'f7\'c0\'ce\'c5\'cd\'b4\'c2 \'b4\'d9\'b8\'a5 \'ba\'af\'bc\'f6\'c0\'c7 \'c1\'d6\'bc\'d2\'b8\'a6 \'c0\'fa\'c0\'e5\'c7\'cf\'b4\'c2 \'ba\'af\'bc\'f6\'c0\'cc\'b4\'d9.\par
+  -\'c6\'f7\'c0\'ce\'c5\'cd\'b8\'a6 \'c1\'f6\'bf\'f8\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1 \'bf\'ac\'bb\'ea\'c0\'da\'b4\'c2 &amp;(\'c1\'d6\'bc\'d2),*(\'b3\'bb\'bf\'eb), \'b5\'a5\'c0\'cc\'c5\'cd\'c1\'d6\'bc\'d2\'b8\'a6 \'bf\'c5\'b0\'dc\'c1\'d6\'b4\'c2 +,-\'bf\'ac\'bb\'ea\'c0\'da \'b1\'d7\'b8\'ae\'b0\'ed \'c6\'f7\'c0\'ce\'c5\'cd\'c0\'c7\par
+ \'b8\'e2\'b9\'f6  \'ba\'af\'bc\'f6\'b8\'a6 \'b0\'a1\'b8\'a3\'c5\'b3\'bc\'f6 \'c0\'d6\'b4\'c2 -&gt;\'bf\'ac\'bb\'ea\'c0\'da\'b0\'a1 \'c0\'d6\'b4\'d9.\par
+\par
+  -\'c6\'f7\'c0\'ce\'c5\'cd\'c0\'c7 \'ba\'af\'bc\'f6\'b4\'c2 \'c7\'d7\'bb\'f3 NULL\'c3\'bc\'c5\'a9\'b8\'a6 \'c7\'d8\'c1\'e0\'be\'df \'c7\'d1\'b4\'d9.\par
+  -\'c7\'d4\'bc\'f6\'b5\'b5 \'b8\'de\'b8\'f0\'b8\'ae\'bf\'a1 \'bf\'c3\'b6\'f3\'b0\'a1\'b8\'e9 \'c1\'d6\'bc\'d2\'b7\'ce \'b3\'aa\'c5\'b8\'b3\'be\'bc\'f6 \'c0\'d6\'c0\'b8\'b8\'e7 \'c6\'f7\'c0\'ce\'c5\'cd\'b7\'ce \'b0\'a1\'b8\'a3\'c5\'b3\'bc\'f6\'c0\'d6\'b4\'d9. (\'c7\'d4\'bc\'f6 \'c6\'f7\'c0\'ce\'c5\'cd)\par
+  - \'b8\'b8\'be\'e0 \f1 int *a \f0\'b6\'f3\'b0\'ed \'c6\'f7\'c0\'ce\'c5\'cd \'bc\'b1\'be\'f0\'c0\'bb \'c7\'cf\'b8\'e9 \f1 a\f0\'b0\'a1 \'b0\'a1\'b8\'a3\'c5\'b0\'b4\'c2 \'b0\'cd\'c0\'ba \f1 int\f0\'c7\'fc \'ba\'af\'bc\'f6\'c0\'c7 \'c1\'d6\'bc\'d2\'b8\'a6 \'b0\'a1\'b8\'a3\'c5\'b2\'b4\'d9\'b4\'c2 \'c0\'c7\'b9\'cc\par
+  - \'bc\'b1\'be\'f0\'c0\'ba \f1 int * a , a = &amp;b \f0\'c0\'cc\'b7\'b1 \'bd\'c4\'c0\'b8\'b7\'ce \'b4\'d9\'b8\'a5 \'b0\'f7\'c0\'c7 \'c1\'d6\'bc\'d2\'b8\'a6 \'c0\'fa\'c0\'e5\'c7\'d1\'b4\'d9.\par
+  \par
+  \par
+&lt;\'c2\'fc\'b0\'ed&gt;\par
+\f1 NULL \f0\'c6\'f7\'c0\'ce\'c5\'cd\f2\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>포인터</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-18T14:55:21.0300543+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:44:59.438931+09:00</UpdatedOn>
+  <Words>*포인터
+  -포인터는 다른 변수의 주소를 저장하는 변수이다.
+  -포인터를 지원하기 위한 연산자는 &amp;(주소),*(내용), 데이터주소를 옮겨주는 +,-연산자 그리고 포인터의
+ 멤버  변수를 가르킬수 있는 -&gt;연산자가 있다.
+
+  -포인터의 변수는 항상 NULL체크를 해줘야 한다.
+  -함수도 메모리에 올라가면 주소로 나타낼수 있으며 포인터로 가르킬수있다. (함수 포인터)
+  - 만약 int *a 라고 포인터 선언을 하면 a가 가르키는 것은 int형 변수의 주소를 가르킨다는 의미
+  - 선언은 int * a , a = &amp;b 이런 식으로 다른 곳의 주소를 저장한다.
+  
+  
+&lt;참고&gt;
+NULL 포인터</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

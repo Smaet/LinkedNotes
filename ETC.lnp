@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>7b352635-6955-4705-83e4-ecec92472b51</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 IL2CPP\par
+{\pntext\f1\'B7\tab}Mono\par
+{\pntext\f1\'B7\tab}Graphic PipeLine\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>ETC</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-25T11:44:20.8841049+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T13:32:47.963553+09:00</UpdatedOn>
+  <Words>IL2CPP
+Mono
+Graphic PipeLine</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

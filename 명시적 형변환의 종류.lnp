@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>4003afaa-5d3c-415a-ba61-185939744669</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1\fs18\'c7\'fc\'ba\'af\'c8\'af\'c0\'c7 \'c1\'be\'b7\'f9\par
+\par
+ 1. \f0 Const_Cast\par
+\tab - Const_Cast\f1\'b4\'c2 \'be\'ee\'b6\'b2 \'c5\'b8\'c0\'d4\'bf\'a1\'bc\'ad \f0 const\f1\'bc\'d3\'bc\'ba\'c0\'cc\'b3\'aa \f0 volatile \f1\'bc\'d3\'bc\'ba\'c0\'bb \'c1\'a6\'b0\'c5 \'c7\'d2\'b6\'a7 \'bb\'e7\'bf\'eb \'c7\'d1\'b4\'d9.\par
+  * \f0 volatile\f1\'bc\'d3\'bc\'ba\par
+\tab - \f0 const\f1\'b6\'f3\'b0\'ed \'ba\'d9\'bf\'a9\'b3\'f5\'c0\'ba \'ba\'af\'bc\'f6\'b8\'a6 \'b1\'d7 \'c0\'db\'be\'f7\'bf\'a1\'bc\'ad \'bf\'ad\'bf\'dc \'c7\'cf\'b0\'d4 \'c7\'d1\'b4\'d9.\par
+ 2. \f0 Reinterpret_Cast\par
+ \tab - \f1\'b9\'ab\'c1\'b6\'b0\'c7\'c0\'fb\'c0\'ce \'c7\'fc\'ba\'af\'c8\'af\'c0\'cc\'b6\'f3\'b0\'ed\'b5\'b5 \'c7\'cf\'b8\'e7 \'b1\'d7\'c0\'fa \'ba\'f1\'c6\'ae\'bf\'ad\'b7\'ce\'b8\'b8 \'ba\'b8\'b0\'ed \'bf\'f8\'c7\'cf\'b4\'c2 \'c7\'fc\'c0\'b8\'b7\'ce \'b0\'ad\'c1\'a6\'b7\'ce \'ba\'af\'c8\'af\'c0\'bb \'c7\'d1\'b4\'d9.\par
+ 3. \f0 Static_Cast\par
+\tab - \f1\'b0\'a1\'c0\'e5 \'c0\'cf\'b9\'dd\'c0\'fb\'c0\'ce \'c7\'fc \'c5\'b8\'c0\'d4\'c0\'cc\'b8\'e7 \f0 A\f1\'bf\'a1\'bc\'ad \f0 B\f1\'c5\'b8\'c0\'d4\'c0\'b8\'b7\'ce \'be\'cf\'bd\'c3\'c0\'fb\'c0\'ce \'c7\'fc\'ba\'af\'c8\'af\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'cf\'b4\'d9\'b8\'e9 \f0 static cast\f2\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \f0 B\f2\'c5\'b8\'c0\'d4\'bf\'a1\'bc\'ad \f0 A\f2\'c5\'b8\'c0\'d4\'c0\'b8\'b7\'ce \'c7\'fc\'ba\'af\'c8\'af\'c0\'bb \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9. \par
+\tab - \f0 static_cast\f2\'b4\'c2 \'b8\'ed\'bd\'c3\'c0\'fb\'c0\'ce \'c7\'fc\'ba\'af\'c8\'af \'c0\'cc\'b1\'e2\'b4\'c2 \'c7\'cf\'c1\'f6\'b8\'b8 \'b4\'eb\'c3\'bc\'c0\'fb\'c0\'b8\'b7\'ce\'b4\'c2 \'be\'c8\'c0\'fc\'c8\'af \'c7\'fc\'ba\'af\'c8\'af\'c0\'cc\'b8\'e7 \'bf\'ec\'b8\'ae\'b0\'a1 \'bc\'f6\'c7\'e0\'c7\'cf\'b4\'c2 \'b4\'eb\'ba\'ce\'ba\'d0\'c0\'c7 \'c7\'fc\'ba\'af\'c8\'af \'c0\'cc\'b1\'e2\'b5\'b5 \'c7\'cf\'b4\'d9.\par
+\f1\par
+\par
+&lt;\'c2\'fc\'b0\'ed \'bb\'e7\'c0\'cc\'c6\'ae&gt;\par
+http://pacs.tistory.com/entry/C-%ED%98%95%EB%B3%80%ED%99%98-Typecasting-constcast-reinterpretcast-staticcast-dynamiccast\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>명시적 형변환의 종류</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-18T14:47:19.4348678+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-21T22:20:06.4705218+09:00</UpdatedOn>
+  <Words>*형변환의 종류
+
+ 1. Const_Cast
+	- Const_Cast는 어떤 타입에서 const속성이나 volatile 속성을 제거 할때 사용 한다.
+  * volatile속성
+	- const라고 붙여놓은 변수를 그 작업에서 열외 하게 한다.
+ 2. Reinterpret_Cast
+ 	- 무조건적인 형변환이라고도 하며 그저 비트열로만 보고 원하는 형으로 강제로 변환을 한다.
+ 3. Static_Cast
+	- 가장 일반적인 형 타입이며 A에서 B타입으로 암시적인 형변환이 가능하다면 static cast를 사용하여 B타입에서 A타입으로 형변환을 할 수 있다. 
+	- static_cast는 명시적인 형변환 이기는 하지만 대체적으로는 안전환 형변환이며 우리가 수행하는 대부분의 형변환 이기도 하다.
+
+
+&lt;참고 사이트&gt;
+http://pacs.tistory.com/entry/C-%ED%98%95%EB%B3%80%ED%99%98-Typecasting-constcast-reinterpretcast-staticcast-dynamiccast</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

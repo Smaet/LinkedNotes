@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>c0a7e559-1bae-4079-887c-f2e941c1e1e1</PageId>
+  <Encrypted>false</Encrypted>
+  <Name>System.Object</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-25T11:08:43.4711812+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-25T11:08:43.4711812+09:00</UpdatedOn>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedService>0</PublishedService>
+</Page>

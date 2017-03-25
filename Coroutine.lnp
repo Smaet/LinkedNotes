@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>93414d58-59ab-4c2e-b555-0d756003a86b</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset0 ??;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\lang1042\f0\fs20 *Coroutine\par
+\par
+- \f1\'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'be\'b2\'b7\'b9\'b5\'e5(thread)\'bf\'cd \'ba\'f1\'bd\'c1\'c7\'d1 \'b0\'b3\'b3\'e4\'c0\'b8\'b7\'ce \'c7\'cf\'b3\'aa\'c0\'c7 \'bd\'c7\'c7\'e0 \'c8\'e5\'b8\'a7\'c0\'cc\'b6\'f3\'b0\'ed \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9.\par
+  \'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'c0\'da\'bd\'c5\'b8\'b8\'c0\'c7 \'bd\'ba\'c5\'c3\'c0\'bb \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'b0\'ed, \'c0\'da\'bd\'c5\'b8\'b8\'c0\'c7 \'c1\'f6\'bf\'aa \'ba\'af\'bc\'f6\'b8\'a6 \'b0\'a1\'c1\'f6\'b8\'e7, instruction point\'b8\'a6 \'b0\'ae\'b4\'c2\'b4\'d9.\par
+  \'c7\'cf\'c1\'f6\'b8\'b8 \'b4\'d9\'b8\'a5 \'c4\'da\'b7\'e7\'c6\'be\'b5\'e9\'b0\'fa \'c0\'fc\'bf\'aa \'ba\'af\'bc\'f6\'b8\'a6 \'b0\'f8\'c0\'af\'c7\'d1\'b4\'d9.\par
+  \'c4\'da\'b7\'e7\'c6\'be\'b0\'fa \'be\'b2\'b7\'b9\'b5\'e5\'c0\'c7 \'c2\'f7\'c0\'cc\'c1\'a1\'c0\'ba \'be\'b2\'b7\'b9\'b5\'e5\'b4\'c2 \'b5\'bf\'bd\'c3\'bf\'a1 \'bf\'a9\'b7\'af \'b0\'b3\'b0\'a1 \'bc\'f6\'c7\'e0\'b5\'c9 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b9\'dd\'b8\'e9 \'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'b5\'bf\'bd\'c3\'bf\'a1 \'c7\'cf\'b3\'aa\'b9\'db\'bf\'a1 \'bc\'f6\'c7\'e0\'b5\'c7\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9\'b4\'c2 \'b0\'cd\'c0\'cc\'b4\'d9.\par
+  \'b4\'d9\'b8\'a5 \'c4\'da\'b7\'e7\'c6\'be\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8\'bc\'ad\'b4\'c2 \'c7\'f6\'c0\'e7 \'bc\'f6\'c7\'e0\'c1\'df\'c0\'ce \'c4\'da\'b7\'e7\'c6\'be\'c0\'cc suspend\'b5\'c8 \'b4\'d9\'c0\'bd \'bb\'f5\'b7\'ce\'bf\'ee \'c4\'da\'b7\'e7\'c6\'be\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'d8\'be\'df \'c7\'d1\'b4\'d9.\par
+  \'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'b8\'b6\'c4\'a1 \'bf\'b9\'c0\'fc OS\'c0\'c7 \'ba\'f1\'bc\'b1\'c1\'a1\'c7\'fc(non-preemptive) \'be\'b2\'b7\'b9\'b5\'e5\'bf\'cd \'ba\'f1\'bd\'c1\'c7\'cf\'b0\'d4 \'b5\'bf\'c0\'db\'c7\'d1\'b4\'d9.\par
+  \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b8\'d3\'b0\'a1 \'b0\'ad\'c1\'a6\'b7\'ce \'c4\'c1\'c5\'d8\'bd\'ba\'c6\'ae \'bd\'ba\'c0\'a7\'c4\'aa \'b8\'ed\'b7\'c9(\'b7\'e7\'be\'c6\'bf\'a1\'bc\'ad\'b4\'c2 coroutine.yield\'c7\'d4\'bc\'f6\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9.)\'c0\'bb \'b3\'bb\'b7\'c1\'c1\'d6\'be\'ee\'be\'df\'b8\'b8 \'bd\'ba\'c0\'a7\'c4\'aa\'c0\'cc \'c0\'cc\'b7\'e7\'be\'ee\'c1\'f8\'b4\'d9.\par
+\par
+A.  \f0 Yield\f1\par
+\tab Coroutine \'c0\'ba Yield \'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'c1\'df\'b0\'a3\'bf\'a1 \'c1\'a6\'be\'ee\'b1\'c7\'c0\'bb \'b4\'d9\'b8\'a5 \'c7\'d4\'bc\'f6\'bf\'a1 \'b3\'d1\'b0\'dc\'c1\'d6\'b4\'c2 \'bf\'aa\'c7\'d2\'c0\'bb \'c7\'d1\'b4\'d9.\par
+\tab yield \'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'c0\'cf\'c1\'a4\'bd\'c3\'b0\'a3 \'b4\'eb\'b1\'e2 \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'c7\'d4\'bc\'f6\'b5\'b5 \'c0\'d6\'b4\'d9.\par
+\tab yield return new WaitForSecond(3.0f); \par
+\tab 3\'c3\'ca  \'b4\'eb\'b1\'e2 \'c8\'c4\'bf\'a1 \'b8\'ae\'c5\'cf\'c0\'bb \'c7\'d8\'c1\'d6\'b4\'c2 \'bc\'f8\'bc\'ad\'b4\'d9. \'bf\'a9\'b1\'e2\'bc\'ad \'b1\'e2\'ba\'bb\'c0\'fb\'c0\'ce \'c3\'df\'b0\'a1 \'c6\'af\'c2\'a1\'c0\'b8\'b7\'ce update \'c7\'d4\'bc\'f6\'bb\'f3\'bf\'a1\'bc\'ad\'b4\'c2 yield \'b9\'ae\'c0\'c7 \'c1\'f7\'c1\'a2\'c0\'fb\'c0\'ce \'bb\'e7\'bf\'eb\'c0\'cc \'b1\'dd\'c1\'f6\'b0\'a1 \'b5\'cb\'b4\'cf\'b4\'d9.\par
+\par
+ B. IEnumerator\par
+\tab (msdn) \'c1\'a6\'b3\'d7\'b8\'af\'c0\'cc \'be\'c6\'b4\'d1 \'c4\'c3\'b7\'ba\'bc\'c7\'c0\'bb \'b4\'dc\'bc\'f8\'c7\'cf\'b0\'d4 \'b9\'dd\'ba\'b9\'c7\'d2 \'bc\'f6 \'c0\'d6\'b5\'b5\'b7\'cf \'c1\'f6\'bf\'f8\'c7\'cf\'b4\'c2 \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba\par
+\tab\'bf\'ec\'b8\'ae\'b8\'bb\'b7\'ce \'bf\'ad\'b0\'c5\'c0\'da \'b6\'f3\'b0\'ed \'c7\'cf\'b4\'c2\'b5\'a5 , \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 \'b8\'f1\'b7\'cf\'c0\'bb \'c7\'cf\'b3\'aa\'be\'bf \'b3\'d1\'b0\'dc \'c1\'d9 \'b6\'a7 \'bb\'e7\'bf\'eb\'b5\'c7\'b4\'c2 \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba \'c0\'cc\'b4\'d9.\par
+\tab\'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'c8\'a3\'c3\'e2\'c7\'d1 \'c7\'d4\'bc\'f6\'bf\'cd \'bc\'ad\'b7\'ce \'bb\'f3\'c8\'a3\'c0\'db\'bf\'eb\'c7\'cf\'b8\'e9\'bc\'ad \'c1\'f8\'c7\'e0\'c7\'cf\'b5\'b5\'b7\'cf \'bc\'b3\'b0\'e8\'b5\'c7\'be\'ee \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\par
+\tab\'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'c0\'da\'bd\'c5\'c0\'bb \'c8\'a3\'c3\'e2\'c7\'d1 \'c7\'d4\'bc\'f6\'bf\'a1 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c7\'cf\'b3\'aa \'b3\'d1\'b0\'dc\'c1\'d6\'b0\'ed \'bd\'ae\'b4\'d9.\par
+\tab\'b9\'de\'c0\'ba \'c3\'f8\'bf\'a1\'bc\'ad\'b4\'c2 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b9\'de\'b0\'ed \'b3\'aa\'bc\'ad \'c3\'b3\'b8\'ae\'c7\'d1 \'c8\'c4\'bf\'a1 \'c4\'da\'b7\'e7\'c6\'be\'bf\'a1\'b0\'d4 \'b4\'d9\'c0\'bd \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b4\'de\'b6\'f3\'b0\'ed \'b1\'fa\'bf\'ee\'b4\'d9.\par
+\tab\'bd\'ac\'b0\'ed \'c0\'d6\'b4\'f8 \'c4\'da\'b7\'e7\'c6\'be\'c0\'ba \'c0\'cf\'be\'ee\'b3\'aa\'bc\'ad \'b4\'d9\'bd\'c3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c0\'fc\'b4\'de\'c7\'cf\'b0\'ed .. \'c0\'cc\'b8\'a6 \'b0\'e8\'bc\'d3 \'b9\'dd\'ba\'b9\'c7\'cf\'b4\'c2 \'b1\'b8\'c1\'b6\'b7\'ce \'b5\'bf\'c0\'db\'c7\'d1\'b4\'d9.\par
+\tab\'c0\'cc\'b7\'b1 \'c0\'db\'be\'f7\'bf\'a1 \'c0\'fb\'c0\'fd\'c7\'d1 \'c0\'ce\'c5\'cd\'c6\'e4\'c0\'cc\'bd\'ba\'b0\'a1 IEnumerator\'c0\'cc\'b8\'e7, C# \'bf\'a1\'bc\'ad \'c4\'da\'b7\'e7\'c6\'be\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d2 \'b6\'a7\'b4\'c2 \'c0\'cc\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9.\par
+\tab\'c0\'cf\'b9\'dd\'c0\'fb\'c0\'b8\'b7\'ce \'c8\'a3\'c3\'e2\'c7\'d1 \'c7\'d4\'bc\'f6\'bf\'a1\'b0\'d4 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c0\'fc\'b4\'de \'c7\'d2\'b6\'a7, return \'b1\'b8\'b9\'ae\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'b0\'d4 \'b5\'c7\'b8\'e9 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c0\'fc\'b4\'de\'c7\'cf\'b0\'ed \'c7\'d4\'bc\'f6\'b4\'c2 \'c1\'be\'b7\'e1 \'b5\'c8\'b4\'d9.\par
+\par
+ C. StartCoroutine \'c7\'d4\'bc\'f6\par
+   \tab IEnumerator \'b9\'dd\'c8\'af\'c7\'fc\'c0\'bb \'b9\'de\'be\'c6 yield \'c0\'cc \'b8\'b8\'b3\'af \'b6\'a7 \'c7\'d4\'bc\'f6\'b8\'a6 \'c0\'cf\'bd\'c3 \'c1\'a4\'c1\'f6\'c7\'cf\'b0\'ed, \'b4\'d9\'b8\'a5 \'bd\'ba\'c5\'a9\'b8\'b3\'c6\'ae\'b3\'aa \'c7\'d4\'bc\'f6\'bf\'a1\'b0\'d4 \'c8\'b0\'b5\'bf\'c0\'bb \'b3\'d1\'b1\'e4\'b4\'d9. \'b4\'d9\'bd\'c3 \'b8\'bb\'c7\'d8 \'c4\'da\'b7\'e7\'c6\'be \'c7\'d4\'bc\'f6\'b8\'a6 \'b1\'b8\'b5\'bf\'c7\'cf\'b4\'c2 \'c7\'d4\'bc\'f6\'b4\'d9. \f2\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>Coroutine</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-24T23:43:59.5205466+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-24T23:45:34.9292432+09:00</UpdatedOn>
+  <Words>*Coroutine
+
+- 코루틴은 쓰레드(thread)와 비슷한 개념으로 하나의 실행 흐름이라고 할 수 있다.
+  코루틴은 자신만의 스택을 가지고 있고, 자신만의 지역 변수를 가지며, instruction point를 갖는다.
+  하지만 다른 코루틴들과 전역 변수를 공유한다.
+  코루틴과 쓰레드의 차이점은 쓰레드는 동시에 여러 개가 수행될 수 있는 반면 코루틴은 동시에 하나밖에 수행되지 않는다는 것이다.
+  다른 코루틴을 수행하기 위해서는 현재 수행중인 코루틴이 suspend된 다음 새로운 코루틴을 수행해야 한다.
+  코루틴은 마치 예전 OS의 비선점형(non-preemptive) 쓰레드와 비슷하게 동작한다.
+  프로그래머가 강제로 컨텍스트 스위칭 명령(루아에서는 coroutine.yield함수를 사용한다.)을 내려주어야만 스위칭이 이루어진다.
+
+A.  Yield
+	Coroutine 은 Yield 를 사용하여 중간에 제어권을 다른 함수에 넘겨주는 역할을 한다.
+	yield 를 사용하여 일정시간 대기 할 수 있는 함수도 있다.
+	yield return new WaitForSecond(3.0f); 
+	3초  대기 후에 리턴을 해주는 순서다. 여기서 기본적인 추가 특징으로 update 함수상에서는 yield 문의 직접적인 사용이 금지가 됩니다.
+
+ B. IEnumerator
+	(msdn) 제네릭이 아닌 컬렉션을 단순하게 반복할 수 있도록 지원하는 인터페이스
+	우리말로 열거자 라고 하는데 , 데이터의 목록을 하나씩 넘겨 줄 때 사용되는 인터페이스 이다.
+	코루틴은 호출한 함수와 서로 상호작용하면서 진행하도록 설계되어 있습니다.
+	코루틴은 자신을 호출한 함수에 데이터를 하나 넘겨주고 쉰다.
+	받은 측에서는 데이터를 받고 나서 처리한 후에 코루틴에게 다음 데이터를 달라고 깨운다.
+	쉬고 있던 코루틴은 일어나서 다시 데이터를 전달하고 .. 이를 계속 반복하는 구조로 동작한다.
+	이런 작업에 적절한 인터페이스가 IEnumerator이며, C# 에서 코루틴을 사용할 때는 이를 사용한다.
+	일반적으로 호출한 함수에게 데이터를 전달 할때, return 구문을 사용하게 되면 데이터를 전달하고 함수는 종료 된다.
+
+ C. StartCoroutine 함수
+   	IEnumerator 반환형을 받아 yield 이 만날 때 함수를 일시 정지하고, 다른 스크립트나 함수에게 활동을 넘긴다. 다시 말해 코루틴 함수를 구동하는 함수다. </Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

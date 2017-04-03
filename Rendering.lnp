@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>a3ed9698-c62a-43bb-990d-b71d0a0747b4</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18 Rendering\f1\fs20\par
+\pard\f0\fs18\tab - \'b7\'bb\'b4\'f5\'b8\'b5(Rendering)\'c0\'ba \'c4\'c4\'c7\'bb\'c5\'cd \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a5\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'b8\'f0\'b5\'a8(\'b6\'c7\'b4\'c2 \'c0\'cc\'b5\'e9\'c0\'bb \'b8\'f0\'be\'c6\'b3\'f5\'c0\'ba \'c0\'e5\'b8\'e9\'c0\'ce \'be\'c0(scene) \'c6\'c4\'c0\'cf)\'b7\'ce\'ba\'ce\'c5\'cd \'bf\'b5\'bb\'f3\'c0\'bb \'b8\'b8\'b5\'e9\'be\'ee\'b3\'bb\'b4\'c2 \'b0\'fa\'c1\'a4\'c0\'bb \'b8\'bb\'c7\'d1\'b4\'d9. \f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>Rendering</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-25T16:20:02.2145354+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-27T17:40:46.9350137+09:00</UpdatedOn>
+  <Words>Rendering
+	- 렌더링(Rendering)은 컴퓨터 프로그램을 사용하여 모델(또는 이들을 모아놓은 장면인 씬(scene) 파일)로부터 영상을 만들어내는 과정을 말한다. </Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

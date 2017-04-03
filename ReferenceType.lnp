@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>56c35e17-e299-448d-a1e9-71a05dbd20c0</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 ReferenceType\par
+\pard\tab - \f1\fs18\'c5\'ac\'b7\'a1\'bd\'ba \'b6\'c7\'b4\'c2 \'b9\'e8\'bf\'ad\'c0\'c7 \'b0\'b4\'c3\'bc\'bf\'cd \f0 String\f1\'c7\'fc , \f0 delegate\f1\par
+\tab - \f0 Heap \f1\'bf\'b5\'bf\'aa\'bf\'a1 \'c7\'d2\'b4\'e7\'b5\'c8\'b4\'d9.\f0\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>ReferenceType</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T11:09:05.8104205+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T11:09:05.8104205+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-27T18:10:55.3114873+09:00</UpdatedOn>
+  <Words>ReferenceType
+	- 클래스 또는 배열의 객체와 String형 , delegate
+	- Heap 영역에 할당된다.</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

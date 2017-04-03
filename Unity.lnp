@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>62c3d222-cad3-44c1-8bbd-26d824756fa6</PageId>
-  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}}
-\viewkind4\uc1\pard\lang1042\f0\fs20 Coroutine\par
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 Coroutine\par
+{\pntext\f1\'B7\tab}UnityShader\par
 }
 &#x0;</Text>
   <Encrypted>false</Encrypted>
@@ -10,8 +11,9 @@
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-24T23:43:51.9587799+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-24T23:45:43.5872381+09:00</UpdatedOn>
-  <Words>Coroutine</Words>
+  <UpdatedOn>2017-03-27T17:51:39.6526603+09:00</UpdatedOn>
+  <Words>Coroutine
+UnityShader</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
   <PublishedUrl />
   <PublishedService>0</PublishedService>

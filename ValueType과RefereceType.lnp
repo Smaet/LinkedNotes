@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>196f652b-519e-4387-a49e-e9c3a9955866</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18 ValueType\fs20\par
+{\pntext\f1\'B7\tab}ReferenceType\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>ValueType과RefereceType</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-27T17:58:18.5992821+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-27T17:58:49.1129357+09:00</UpdatedOn>
+  <Words>ValueType
+ReferenceType</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

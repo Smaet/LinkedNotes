@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>46bb80d9-78e8-48ed-abd4-fd6e420c0775</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil DotumChe;}{\f3\fnil\fcharset0 DotumChe;}{\f4\fnil\fcharset129 DotumChe;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red86\green156\blue214;\red30\green30\blue30;\red220\green220\blue220;\red200\green200\blue200;\red180\green180\blue180;\red181\green206\blue168;\red78\green201\blue176;\red214\green157\blue133;}
+\viewkind4\uc1\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'bb\'ef\'c7\'d7 \'bf\'ac\'bb\'ea\'c0\'da\f1\fs20\par
+\pard\f0\fs18\tab '\'c1\'b6\'b0\'c7' ? A : B\par
+\par
+\tab '\'c1\'b6\'b0\'c7' \'c0\'cc \'c2\'fc\'c0\'cc\'b8\'e9 A\'b8\'a6 \'b9\'dd\'c8\'af\par
+\par
+\tab '\'c1\'b6\'b0\'c7' \'c0\'cc \'b0\'c5\'c1\'fe\'c0\'cc\'b8\'e9 B\'b8\'a6 \'b9\'dd\'c8\'af\par
+\par
+\par
+\cf1\highlight2\f2\fs19 int\cf3  \cf4 main\cf5 ()\f3\tab\tab\tab\tab\tab\tab\cf3\f2\par
+\cf5\{\f3\tab\tab\tab\tab\tab\tab\tab\cf3\f2\par
+\tab\cf1 int\cf3  \cf4 a\cf3  \cf5 =\cf3  \cf6 1\cf5 ;\f3\tab\tab\tab\tab\tab\cf3\f2\par
+\tab\cf1 int\cf3  \cf4 b\cf3  \cf5 =\cf3  \cf6 2\cf5 ;\f3\tab\tab\tab\tab\tab\cf3\f2\par
+\f3\tab\tab\tab\tab\tab\tab\tab\f2\par
+\tab\cf4 std\cf5 ::\cf7 string\cf3  \cf4 result\cf3  \cf5 =\cf3  \cf8 ""\cf5 ;\f3\tab\tab\tab\cf3\f2\par
+\f3\tab\tab\tab\tab\tab\tab\tab\f2\par
+\tab\cf4 result\cf3  \cf5 =\cf3  \cf5 (\cf4 a\cf3  \cf5 &gt;\cf3  \cf4 b\cf5 )\cf3  \cf5 ?\cf3  \cf8 "a\f4\'b0\'a1\f2  \f4\'c5\'ad\f2 "\cf3  \cf5 :\cf3  \cf8 "b\f4\'b0\'a1\f2  \f4\'c5\'ad\f2 "\cf5 ;\f3\tab\cf3\f2\par
+\f3\tab\tab\tab\tab\tab\tab\tab\f2\par
+\tab\cf4 std\cf5 ::\cf4 cout\cf3  \cf5 &lt;&lt;\cf3  \cf4 result\cf3  \cf5 &lt;&lt;\cf3  \cf4 std\cf5 ::\cf4 endl\cf5 ;\f3\tab\tab\cf3\f2\par
+\cf5\}\f3\tab\tab\tab\tab\tab\tab\tab\cf0\highlight0\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>삼항 연산자</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:36:16.3867123+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:21:06.5960058+09:00</UpdatedOn>
+  <Words>삼항 연산자
+	'조건' ? A : B
+
+	'조건' 이 참이면 A를 반환
+
+	'조건' 이 거짓이면 B를 반환
+
+
+int main()						
+{							
+	int a = 1;					
+	int b = 2;					
+							
+	std::string result = "";			
+							
+	result = (a &gt; b) ? "a가 큼" : "b가 큼";	
+							
+	std::cout &lt;&lt; result &lt;&lt; std::endl;		
+}							</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

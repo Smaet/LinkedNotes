@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>ad8c5d99-3368-42e9-8f86-c938a7d3f589</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 Queue\fs20\par
+\fs20{\pntext\f2\'B7\tab}Priority_Queue\fs20\par
+\fs20{\pntext\f2\'B7\tab}Stack\fs20\par
+\f1\fs20{\pntext\f2\'B7\tab}\'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0\fs20  \f1\fs18\'be\'ee\'b4\'f0\'c5\'cd\'b4\'c2 \'b9\'dd\'ba\'b9\'c0\'da\'b8\'a6 \'c1\'f6\'bf\'f8\'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>컨테이너어댑터</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T12:28:31.928476+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T12:37:19.7045043+09:00</UpdatedOn>
+  <Words>Queue
+Priority_Queue
+Stack
+컨테이너 어댑터는 반복자를 지원하지 않는다</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedService>0</PublishedService>
+</Page>

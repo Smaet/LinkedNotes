@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>5bff7a37-fc64-49d4-bd39-4d3dab9ab19c</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18 MutiSet\fs20\par
+\pard\tab - map\f1\'b0\'fa \'b4\'d9\'b8\'a5 \'c1\'a1\'c0\'ba [] \'bf\'ac\'bb\'ea\'c0\'da\'b0\'a1 \'be\'f8\'c0\'b8\'b8\'e7 key \'b0\'aa\'c0\'cc \'c1\'df\'ba\'b9\'b5\'c9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\f0\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>MutiMap</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:19:07.2980346+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T12:19:42.285063+09:00</UpdatedOn>
+  <Words>MutiSet
+	- map과 다른 점은 [] 연산자가 없으며 key 값이 중복될 수 있습니다.</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

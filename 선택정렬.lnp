@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>4d5ca6f9-1409-4f47-b0a0-537d7afcebb0</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil DotumChe;}{\f4\fnil\fcharset0 DotumChe;}{\f5\fnil\fcharset129 DotumChe;}{\f6\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red86\green156\blue214;\red30\green30\blue30;\red220\green220\blue220;\red180\green180\blue180;\red200\green200\blue200;\red181\green206\blue168;\red218\green218\blue218;\red87\green166\blue74;}
+\viewkind4\uc1\pard{\pntext\f6\'B7\tab}{\*\pn\pnlvlblt\pnf6\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'bb\'f0\'c0\'d4\'c1\'a4\'b7\'c4\f1\fs20\par
+\pard\tab - \f0\fs18\'c7\'f6\'c0\'e7 \'c0\'a7\'c4\'a1\'bf\'a1 \'b5\'e9\'be\'ee\'b0\'a5 \'b0\'aa\'c0\'bb \'c3\'a3\'be\'c6 \'c1\'a4\'b7\'c4\'c7\'cf\'b4\'c2 \'b9\'e8\'bf\'ad\f1\fs20\par
+\tab - \f0\fs18\'b9\'d9\'b2\'dc \'c0\'ce\'b5\'a6\'bd\'ba\'b8\'a6 \'c1\'f6\'c1\'a4\'c7\'cf\'b0\'ed \'b1\'d7 \'b4\'d9\'c0\'bd \'c0\'ce\'b5\'a6\'bd\'ba\'bf\'a1\'bc\'ad \'b0\'a1\'c0\'e5 \'c0\'db\'b0\'c5\'b3\'aa \'c5\'ab \'bc\'f6\'b8\'a6 \'c3\'a3\'b4\'c2\'b4\'d9(\'b3\'a1\'b1\'ee\'c1\'f6 \'b5\'b7\'b4\'d9)\par
+\tab - \f2\fs20\'bd\'c3\'b0\'a3\'ba\'b9\'c0\'e2\'b5\'b5\'b4\'c2 \f1 O(n^2)\f0\fs18\par
+\par
+\cf1\highlight2\f3\fs19 for\cf3  \cf4 (\cf1 int\cf3  \cf5 i\cf3  \cf4 =\cf3  \cf6 0\cf4 ;\cf3  \cf5 i\cf3  \cf4 &lt;\cf3  \cf7 count\cf4 ;\cf3  \cf5 i\cf4 ++)\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 int\cf3  \cf5 curIndex\cf3  \cf4 =\cf3  \cf5 i\cf4 ;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 int\cf3  \cf5 changeIndex\cf3  \cf4 =\cf3  \cf6 0\cf4 ;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 for\cf3  \cf4 (\cf1 int\cf3  \cf5 j\cf3  \cf4 =\cf3  \cf5 i\cf4 +\cf6 1\cf3  \cf4 ;\cf3  \cf5 j\cf3  \cf4 &lt;\cf3  \cf7 count\cf4 ;\cf3  \cf5 j\cf4 ++)\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf8 //\f5\'b8\'b6\'c1\'f6\'b8\'b7\'b1\'ee\'c1\'f6\f3  \f5\'b5\'b9\'be\'c6\'bc\'ad\f3  \f5\'c1\'a6\'c0\'cf\f3  \f5\'c0\'db\'c0\'ba\f3  \f5\'bc\'f6\'b0\'a1\f3  \f5\'c0\'d6\'b4\'c2\f3  \f5\'c0\'ce\'b5\'a6\'bd\'ba\'b8\'a6\f3  \f5\'b3\'d6\'b4\'c2\'b4\'d9\f3 .\cf3\par
+\tab\tab\tab\tab\cf1 if\cf3  \cf4 (\cf7 cur_dArray\cf4 [\cf5 curIndex\cf4 ]\cf3  \cf4 &gt;\cf3  \cf7 cur_dArray\cf4 [\cf5 j\cf4 ])\f4\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf5 changeIndex\cf3  \cf4 =\cf3  \cf5 j\cf4 ;\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 if\cf3  \cf4 (\cf5 changeIndex\cf3  \cf4 !=\cf3  \cf6 0\cf4 )\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf1 int\cf3  \cf5 tmp\cf4 ;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf5 tmp\cf3  \cf4 =\cf3  \cf7 cur_dArray\cf4 [\cf5 changeIndex\cf4 ];\f4\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf7 cur_dArray\cf4 [\cf5 changeIndex\cf4 ]\cf3  \cf4 =\cf3  \cf7 cur_dArray\cf4 [\cf5 curIndex\cf4 ];\f4\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf7 cur_dArray\cf4 [\cf5 curIndex\cf4 ]\cf3  \cf4 =\cf3  \cf5 tmp\cf4 ;\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf5 Show\cf4 ();\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf4\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf0\highlight0\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>선택정렬</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-04-01T09:38:18.9870229+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:01:36.8733027+09:00</UpdatedOn>
+  <Words>삽입정렬
+	- 현재 위치에 들어갈 값을 찾아 정렬하는 배열
+	- 바꿀 인덱스를 지정하고 그 다음 인덱스에서 가장 작거나 큰 수를 찾는다(끝까지 돈다)
+	- 시간복잡도는 O(n^2)
+
+for (int i = 0; i &lt; count; i++)								
+		{										
+			int curIndex = i;							
+			int changeIndex = 0;							
+			for (int j = i+1 ; j &lt; count; j++)					
+			{									
+				//마지막까지 돌아서 제일 작은 수가 있는 인덱스를 넣는다.
+				if (cur_dArray[curIndex] &gt; cur_dArray[j])			
+				changeIndex = j;						
+			}									
+			if (changeIndex != 0)						
+			{									
+				int tmp;							
+				tmp = cur_dArray[changeIndex];				
+				cur_dArray[changeIndex] = cur_dArray[curIndex];		
+				cur_dArray[curIndex] = tmp;					
+				Show();							
+			}									
+		}										</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

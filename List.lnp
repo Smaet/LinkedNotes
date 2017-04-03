@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>30ee6aaf-7654-4c44-b4b7-f75c4b7dde28</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18 List\fs20\par
+\pard\fs18\tab - List\f1\'b4\'c2 \'bd\'c3\'c4\'fd\'bd\'ba \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0  \f1\'c0\'cc\'b8\'e7 \'b3\'eb\'b5\'e5 \'b1\'e2\'b9\'dd \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0  \f1\'c0\'cc\'b0\'ed \'c1\'df\'b0\'a3\'bf\'a1 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 \'bb\'f0\'c0\'d4,\'bb\'e8\'c1\'a6\'b0\'a1 \'ba\'f3\'b9\'f8\'c7\'cf\'b0\'d4 \'c0\'cf\'be\'ee\'b3\'aa\'b8\'e9 \'bb\'e7\'bf\'eb\'c7\'cf\'b1\'e2 \'c1\'c1\'c0\'ba \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'cc\'b4\'d9.\par
+\tab - \'be\'e7\'b9\'e6\'c7\'e2 \'b9\'dd\'ba\'b9\'c0\'da\f0  \f1\'c1\'a6\'b0\'f8\par
+\tab - \f0 List\f1\'b4\'c2 \'bf\'ac\'bc\'d3\'b8\'de\'b8\'f0\'b8\'ae\f0  \f1\'b1\'e2\'b9\'dd\'c0\'cc \'be\'c6\'b4\'cf\'b9\'c7\'b7\'ce \f0 operator\f1\'bf\'ac\'bb\'e7\'c0\'da\'b4\'c2 \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'c1\'f6 \'be\'ca\'c0\'b8\'b8\'e7 \'b9\'dd\'ba\'b9\'c0\'da(\f0 iterator)\f1\'b8\'a6 \'c5\'eb\'c7\'d8\'bc\'ad\'b8\'b8 \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'c7 \'bf\'e4\'bc\'d2\'bf\'a1 \'c1\'a2\'b1\'d9 \'b0\'a1\'b4\'c9\f0\par
+\tab - \f2\'c2\'fc\'b0\'ed\'b7\'ce\f0\fs20  \fs18 List\f1\'b4\'c2 \f0 Double\fs20  linked List\f1\fs18\'b7\'ce \'b5\'c7\'be\'ee\'c0\'d6\'b4\'d9.\par
+\tab\par
+\tab\par
+\f0\fs20\tab\f1\fs18 - \'b0\'ad\'c1\'a1: \par
+\f0\fs20\tab\tab 1. \f1\'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'c7 \'be\'ee\'b4\'c0 \'c0\'a7\'c4\'a1\'bf\'a1\'bc\'ad\'b5\'b5 \'bb\'f0\'c0\'d4/\'c1\'a6\'b0\'c5\'b0\'a1 \'ba\'fc\'b8\'a3\'b4\'d9\par
+\tab\tab 2. \'bf\'f8\'bc\'d2\'b5\'e9\'c0\'c7 \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0  \f1\'b3\'bb \'bc\'f8\'bc\'ad \'c0\'cc\'b5\'bf\'c0\'cc \'ba\'fc\'b8\'a3\'b4\'d9.\par
+\tab\tab 3. \f0 vector\f1\'bf\'cd \f0 deque\f1\'bf\'cd \'b4\'d9\'b8\'a3\'b0\'d4 \f0 list\f1\'c0\'c7 \'b0\'a1\'c0\'e5 \'c5\'ab \'c0\'e5\'c1\'a1\'c0\'ba \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0  \f1\'b3\'bb\'c0\'c7 \'be\'ee\'b4\'c0 \'c0\'a7\'c4\'a1\'bf\'a1\'bc\'ad\'b6\'f3\'b5\'b5 \'bb\'f0\'c0\'d4/\'bb\'e8\'c1\'a6\'b0\'a1 \'ba\'fc\'b8\'a3\'b4\'d9.\par
+\tab\par
+\tab - \'be\'e0\'c1\'a1 :\par
+\tab\tab 1. \'bf\'f8\'bc\'d2\'c0\'c7 \f0 index\f1\'c1\'a2\'b1\'d9 \'ba\'d2\'b0\'a1 -&gt; \'c6\'af\'c1\'a4 \'bf\'f8\'bc\'d2\'bf\'a1 \'c1\'a2\'b1\'d9 \'c7\'d2\'b7\'c1\'b8\'e9 \'c3\'b3\'c0\'bd\'c0\'cc\'b3\'aa \'b3\'a1\'bf\'a1\'bc\'ad \'ba\'ce\'c5\'cd \'bc\'b1\'c7\'fc \'c5\'bd\'bb\'f6 \'c7\'d8\'be\'df\'c7\'d4\par
+\tab\tab 2. \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0  \f1\'b3\'bb \'bf\'f8\'bc\'d2 \'bc\'f8\'c8\'b8\'b4\'c2 \f0 forward / reverse (\f1\'be\'d5\'c0\'cc\'b3\'aa \'b5\'da) \'bc\'f8\'c8\'b8\'b8\'b8 \'b0\'a1\'b4\'c9\'c7\'cf\'b8\'e7 \'bc\'d3\'b5\'b5\'b0\'a1 \'b4\'c0\'b8\'ae\'b4\'d9.\par
+\tab\tab 3. \'bf\'f8\'bc\'d2\'b5\'e9\'b0\'a3 \'bb\'f3\'c8\'a3 \'bf\'ac\'b0\'e1 \'c1\'a4\'ba\'b8\'b8\'a6 \'c0\'a7\'c7\'d8 \'c3\'df\'b0\'a1\'c0\'fb\'c0\'ce \'b8\'de\'b8\'f0\'b8\'ae\'b0\'a1 \'bb\'e7\'bf\'eb\f0\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>List</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:20:34.3351945+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:20:34.3351945+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-28T11:23:05.2125989+09:00</UpdatedOn>
+  <Words>List
+	- List는 시퀸스 컨테이너 이며 노드 기반 컨테이너 이고 중간에 데이터의 삽입,삭제가 빈번하게 일어나면 사용하기 좋은 컨테이너이다.
+	- 양방향 반복자 제공
+	- List는 연속메모리 기반이 아니므로 operator연사자는 가지고 있지 않으며 반복자(iterator)를 통해서만 컨테이너의 요소에 접근 가능
+	- 참고로 List는 Double linked List로 되어있다.
+	
+	
+	- 강점: 
+		1. 컨테이너의 어느 위치에서도 삽입/제거가 빠르다
+		2. 원소들의 컨테이너 내 순서 이동이 빠르다.
+		3. vector와 deque와 다르게 list의 가장 큰 장점은 컨테이너 내의 어느 위치에서라도 삽입/삭제가 빠르다.
+	
+	- 약점 :
+		1. 원소의 index접근 불가 -&gt; 특정 원소에 접근 할려면 처음이나 끝에서 부터 선형 탐색 해야함
+		2. 컨테이너 내 원소 순회는 forward / reverse (앞이나 뒤) 순회만 가능하며 속도가 느리다.
+		3. 원소들간 상호 연결 정보를 위해 추가적인 메모리가 사용</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

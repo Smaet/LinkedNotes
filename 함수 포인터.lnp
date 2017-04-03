@@ -8,7 +8,7 @@
  - \'c7\'d4\'bc\'f6\'c0\'c7 \'c0\'cc\'b8\'a7\'c0\'ba \'b1\'d7 \'c7\'d4\'bc\'f6\'c0\'c7 \'bd\'c3\'c0\'db\'c1\'d6\'bc\'d2\par
  \par
  \f0 - Void \f1\'c6\'f7\'c0\'ce\'c5\'cd\f0\fs20\par
- - CallBack\f1\'c7\'d4\'bc\'f6\par
+ - CallBack \f1\'c7\'d4\'bc\'f6\par
 \f0\par
 }
 &#x0;</Text>
@@ -17,14 +17,14 @@
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-18T15:09:44.8414168+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T13:46:07.5166575+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-27T18:24:39.9681933+09:00</UpdatedOn>
   <Words>* 함수 포인터
  - 말그대로 함수를 가르키는 포인터 이며 함수를 가르키는 타입은 함수의 리턴형과 전달 인자로 판단된다.
  - 함수의 주소만 알면 형변환을 통해 함수의 주소를 호출 할수도 있다.
  - 함수의 이름은 그 함수의 시작주소
  
  - Void 포인터
- - CallBack함수
+ - CallBack 함수
 </Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
   <PublishedUrl />

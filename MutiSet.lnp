@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>6d844cbe-f7c9-4c69-bcad-edfc3e7e5f1f</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 MutiSet\par
+\pard\tab - Set\f1\fs18\'bf\'a1\'bc\'ad \f0 Key\f1\'b0\'aa\'c0\'cc \'c1\'df\'ba\'b9\'b5\'c8\'b4\'d9\'b4\'c2 \'c1\'a1\'c0\'cc \'c2\'f7\'c0\'cc\'c1\'a1\par
+\par
+*&lt;\f0 MSDN \f1\'bc\'b3\'b8\'ed&gt;\par
+\bullet\'bf\'ac\'b0\'fc\'b5\'c8 \'c5\'b0 \'b0\'aa\'c0\'bb \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'c7\'cf\'b8\'e7 \'bf\'e4\'bc\'d2 \'b0\'aa\'c0\'c7 \'c8\'bf\'c0\'b2\'c0\'fb\'c0\'ce \'b0\'cb\'bb\'f6\'c0\'bb \'c1\'f6\'bf\'f8\'c7\'cf\'b4\'c2 \'b0\'a1\'ba\'af \'c5\'a9\'b1\'e2 \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'ce \'bf\'ac\'b0\'fc \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'d4\'b4\'cf\'b4\'d9.\par
+\bullet\'c0\'cc\'b4\'c2 \'c7\'d8\'b4\'e7 \'bf\'e4\'bc\'d2\'bf\'a1 \'be\'d7\'bc\'bc\'bd\'ba\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'be\'e7\'b9\'e6\'c7\'e2 \'b9\'dd\'ba\'b9\'b1\'e2\'b8\'a6 \'c1\'a6\'b0\'f8\'c7\'cf\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'b5\'c7\'b5\'b9\'b8\'b1 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\par
+\bullet\'c7\'d8\'b4\'e7 \'bf\'e4\'bc\'d2\'b0\'a1 \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca \'b3\'bb\'bf\'a1\'bc\'ad \'c1\'f6\'c1\'a4\'b5\'c8 \'ba\'f1\'b1\'b3 \'c7\'d4\'bc\'f6\'bf\'a1 \'b5\'fb\'b6\'f3 \'c5\'b0 \'b0\'aa\'c0\'bb \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'c1\'a4\'b7\'c4\'b5\'c7\'b9\'c7\'b7\'ce \'c1\'a4\'b7\'c4\'b5\'cb\'b4\'cf\'b4\'d9\par
+\bullet\'c7\'d8\'b4\'e7 \'bf\'e4\'bc\'d2\'b4\'c2 \'b0\'ed\'c0\'af \'c5\'b0\'b8\'a6 \'b0\'a1\'c1\'fa \'c7\'ca\'bf\'e4\'b0\'a1 \'be\'f8\'c0\'b8\'b9\'c7\'b7\'ce \'c7\'cf\'b3\'aa\'c0\'c7 \'c5\'b0 \'b0\'aa\'c0\'ba \'c0\'cc\'bf\'cd \'b0\'fc\'b7\'c3\'b5\'c8 \'b8\'b9\'c0\'ba \'bf\'e4\'bc\'d2 \'b0\'aa\'c0\'bb \'b0\'a1\'c1\'fa \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\par
+\bullet\'c7\'d8\'b4\'e7 \'bf\'e4\'bc\'d2 \'b0\'aa\'c0\'ba \'c5\'b0 \'b0\'aa\'b0\'fa \'b1\'b8\'ba\'b0\'b5\'c7\'b9\'c7\'b7\'ce \'b0\'a3\'b4\'dc\'c7\'d1 \'bf\'ac\'b0\'fc \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'d4\'b4\'cf\'b4\'d9.\par
+\bullet\'c1\'a6\'b0\'f8\'c7\'cf\'b4\'c2 \'b1\'e2\'b4\'c9\'c0\'cc \'c1\'a6\'b3\'d7\'b8\'af\'c0\'cc\'b0\'ed \'bf\'e4\'bc\'d2\'b7\'ce \'c6\'f7\'c7\'d4\'b5\'c8 \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 \'c6\'af\'c1\'a4 \'c7\'fc\'bd\'c4\'b0\'fa \'b5\'b6\'b8\'b3\'c0\'fb\'c0\'cc\'b9\'c7\'b7\'ce \'c5\'db\'c7\'c3\'b8\'b4 \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'d4\'b4\'cf\'b4\'d9. \'bb\'e7\'bf\'eb\'b5\'c9 \'b5\'a5\'c0\'cc\'c5\'cd \'c7\'fc\'bd\'c4\'c0\'ba \'b4\'eb\'bd\'c5 \'ba\'f1\'b1\'b3 \'c7\'d4\'bc\'f6 \'b9\'d7 \'c7\'d2\'b4\'e7\'c0\'da\'bf\'cd \'c7\'d4\'b2\'b2 \'c5\'ac\'b7\'a1\'bd\'ba \'c5\'db\'c7\'c3\'b8\'b4\'bf\'a1\'bc\'ad \'b8\'c5\'b0\'b3 \'ba\'af\'bc\'f6\'b7\'ce \'c1\'f6\'c1\'a4\'b5\'cb\'b4\'cf\'b4\'d9.\par
+\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>MutiSet</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:19:03.2670227+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T12:11:39.9723797+09:00</UpdatedOn>
+  <Words>MutiSet
+	- Set에서 Key값이 중복된다는 점이 차이점
+
+*&lt;MSDN 설명&gt;
+•연관된 키 값을 기준으로 하며 요소 값의 효율적인 검색을 지원하는 가변 크기 컨테이너인 연관 컨테이너입니다.
+•이는 해당 요소에 액세스할 수 있는 양방향 반복기를 제공하기 때문에 되돌릴 수 있습니다.
+•해당 요소가 컨테이너 내에서 지정된 비교 함수에 따라 키 값을 기준으로 정렬되므로 정렬됩니다
+•해당 요소는 고유 키를 가질 필요가 없으므로 하나의 키 값은 이와 관련된 많은 요소 값을 가질 수 있습니다.
+•해당 요소 값은 키 값과 구별되므로 간단한 연관 컨테이너입니다.
+•제공하는 기능이 제네릭이고 요소로 포함된 데이터의 특정 형식과 독립적이므로 템플릿 클래스입니다. 사용될 데이터 형식은 대신 비교 함수 및 할당자와 함께 클래스 템플릿에서 매개 변수로 지정됩니다.
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

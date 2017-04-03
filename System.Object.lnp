@@ -1,12 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>c0a7e559-1bae-4079-887c-f2e941c1e1e1</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 System.Object\par
+\pard\tab - object \f1\'bf\'a1\'bc\'ad \'c1\'f7/\'b0\'a3\'c1\'a2\'c0\'fb\'c0\'b8\'b7\'ce \'bb\'f3\'bc\'d3\'c0\'bb \'b9\'de\'b0\'d4 \'b5\'cb\'b4\'cf\'b4\'d9. \'c1\'ef, \'c3\'d6\'bb\'f3\'c0\'a7 \'ba\'ce\'b8\'f0 \'c5\'ac\'b7\'a1\'bd\'ba \par
+\par
+\f0\par
+\pard\li150\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450 Boxing\f1\'b0\'faUnBoxing\f0\par
+{\pntext\f2\'B7\tab}ValueType\f1\'b0\'faRefereceType\f0\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>System.Object</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T11:08:43.4711812+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T11:08:43.4711812+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-27T18:07:54.5737668+09:00</UpdatedOn>
+  <Words>System.Object
+	- object 에서 직/간접적으로 상속을 받게 됩니다. 즉, 최상위 부모 클래스 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Boxing과UnBoxing
+ValueType과RefereceType</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

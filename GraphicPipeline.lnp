@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>d2edb197-e584-417e-ad77-288f4805ab5a</PageId>
-  <Text />
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 GraphicPipeline (DX11)\tab\par
+\pard\tab - \b\f1\fs18\'bc\'f8\'bc\'ad (\f0 MSDN)\b0\fs20\par
+\tab 1. \fs18 Input_Assembler -&gt; 2. Vertex_Shader -&gt; 3.Hull Shader -&gt; 4. Tessellator -&gt; 5. Domain Shader -&gt; 6. Geometry Shader -&gt; 7. Rasterizer -&gt; 8. Pixel Shader -&gt; 9. Output_Merger\par
+\tab - \f1\'b0\'a3\'b7\'ab\'c7\'d1 \'bc\'f8\'bc\'ad\par
+\tab 1. \'b0\'f8\'b0\'a3\'ba\'af\'c8\'af\f0  -&gt;2. \f1\'c1\'a4\'c1\'a1 \'bc\'ce\'c0\'cc\'b4\'f5 -&gt; 3. \'b7\'b9\'bd\'ba\'c5\'cd\'b6\'f3\'c0\'cc\'c1\'ee -&gt; 4. \'c7\'c8\'bc\'bf \'bc\'ce\'c0\'cc\'b4\'f5 -&gt; \'c8\'ad\'b8\'e9 \'c3\'e2\'b7\'c2\par
+\tab\f0\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>GraphicPipeline</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T12:55:34.1263668+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T12:55:34.1263668+09:00</UpdatedOn>
-  <Words />
+  <UpdatedOn>2017-03-27T17:42:59.0650462+09:00</UpdatedOn>
+  <Words>GraphicPipeline (DX11)	
+	- 순서 (MSDN)
+	1. Input_Assembler -&gt; 2. Vertex_Shader -&gt; 3.Hull Shader -&gt; 4. Tessellator -&gt; 5. Domain Shader -&gt; 6. Geometry Shader -&gt; 7. Rasterizer -&gt; 8. Pixel Shader -&gt; 9. Output_Merger
+	- 간략한 순서
+	1. 공간변환 -&gt;2. 정점 셰이더 -&gt; 3. 레스터라이즈 -&gt; 4. 픽셀 셰이더 -&gt; 화면 출력
+	</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
   <PublishedUrl />
   <PublishedService>0</PublishedService>

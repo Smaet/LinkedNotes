@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>efa43edd-9d3f-4dce-a981-0b79be5295d7</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20\'bf\'c0\'b9\'f6\'b6\'f3\'c0\'cc\'b5\'f9\'b0\'fa \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f1  \f0\'b5\'d1\'b4\'d9 \'bb\'f3\'bc\'d3\'b0\'fc\'b0\'e8\'c0\'c7 \'c7\'d4\'bc\'f6\'b8\'a6 \'c0\'e7\'c1\'a4\'c0\'c7 \'c7\'d2\'b6\'a7 \'c7\'cf\'c1\'f6\'b8\'b8 \'b8\'b8\'be\'e0 \f1 A,B\f0\'c5\'ac\'b7\'a1\'bd\'ba\'b0\'a1 \'c0\'d6\'b0\'ed \f1 B\f2\'b0\'a1 \f1 A\f2\'b8\'a6 \'bb\'f3\'bc\'d3\f1  \f2\'b9\'de\'b4\'c2\'b0\'fc\'b0\'e8\'b6\'f3\'b0\'ed \'c7\'cf\'b0\'ed \f1 A\f2\'b7\'ce \'bc\'b1\'be\'f0\'c7\'cf\'b0\'ed \f1 B\f2\'c0\'c7 \'c1\'d6\'bc\'d2\'b8\'a6 \'b0\'a1\'b8\'a3\'c5\'b0\'b0\'d4 \'c7\'cf\'b8\'e9  \'bf\'c0\'b9\'f6\'b6\'f3\'c0\'cc\'b5\'f9\'c0\'ba \'bc\'b1\'be\'f0\'b5\'c8 \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1 \'c0\'d6\'b4\'c2 \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'cf\'b0\'ed \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\'b4\'c2 \'b0\'a1\'b8\'a3\'c5\'b0\'b4\'c2 \'b0\'b4\'c3\'bc\'bf\'a1 \'c0\'d6\'b4\'c2 \'c7\'d4\'bc\'f6\'b8\'a6 \'ba\'ce\'b8\'a3\'b0\'d4 \'c7\'d1\'b4\'d9.\f1\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>차이점</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-04-03T10:15:49.0948002+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:00:14.3322022+09:00</UpdatedOn>
+  <Words>오버라이딩과 가상함수 둘다 상속관계의 함수를 재정의 할때 하지만 만약 A,B클래스가 있고 B가 A를 상속 받는관계라고 하고 A로 선언하고 B의 주소를 가르키게 하면  오버라이딩은 선언된 클래스에 있는 함수를 호출하고 가상함수는 가르키는 객체에 있는 함수를 부르게 한다.</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

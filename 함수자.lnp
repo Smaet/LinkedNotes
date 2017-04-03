@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>4e9c8a9b-5076-4a2d-9a59-d30fa518b00c</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'c7\'d4\'bc\'f6\'c0\'da\f1\fs20\par
+\pard\f0\fs18\tab - \'c7\'d4\'bc\'f6\'c3\'b3\'b7\'b3 \'bb\'e7\'bf\'eb \'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2 \'b0\'b4\'c3\'bc, \'c7\'d4\'bc\'f6\'b6\'f3\'b4\'c2 \'b8\'e2\'b9\'f6 \'c7\'d4\'bc\'f6 \f1 operator\f2\'b8\'a6 \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \'b0\'b4\'c3\'bc\'b8\'a6 \'c7\'d4\'bc\'f6\'c3\'b3\'b7\'b3 \'bb\'e7\'bf\'eb\'b0\'a1\'b4\'c9\par
+\tab\'bf\'b9)\par
+\tab\tab - \f1 Sort(v.Begin(), v.end(), less&lt;int&gt;());\par
+\tab\tab\f2 - \f1 Sort(v.Begin(), v.end(), greater&lt;int&gt;());\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>함수자</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:08:50.7372413+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T10:27:41.366313+09:00</UpdatedOn>
+  <Words>함수자
+	- 함수처럼 사용 할 수 있는 객체, 함수라는 멤버 함수 operator를 가지고 있기 때문에 객체를 함수처럼 사용가능
+	예)
+		- Sort(v.Begin(), v.end(), less&lt;int&gt;());
+		- Sort(v.Begin(), v.end(), greater&lt;int&gt;());</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

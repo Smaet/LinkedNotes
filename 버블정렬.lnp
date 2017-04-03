@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>fe6cddb9-8e5c-4dce-a9e5-c4d9cd4dc871</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil DotumChe;}{\f4\fnil\fcharset0 DotumChe;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red86\green156\blue214;\red30\green30\blue30;\red220\green220\blue220;\red200\green200\blue200;\red180\green180\blue180;\red127\green127\blue127;\red181\green206\blue168;\red87\green166\blue74;}
+\viewkind4\uc1\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'b9\'f6\'ba\'ed\'c1\'a4\'b7\'c4\f1\fs20\par
+\pard\tab - \f0\fs18\'b5\'ce\'b0\'b3\'c0\'c7 \'c0\'ce\'b5\'a6\'bd\'ba\'b8\'a6 \'b0\'e8\'bc\'d3 \'ba\'f1\'b1\'b3\'c7\'d8 \'b0\'a1\'b8\'e7 \'c1\'a4\'c7\'d1 \'b1\'e2\'c1\'d8\'c0\'c7 \'b0\'aa\'c0\'bb \'b5\'da\'b7\'ce \'b3\'d1\'b0\'dc \'c1\'a4\'b7\'c4\'c7\'cf\'b4\'c2 \'b9\'e6\'b9\'fd\par
+\tab - \f2\fs20\'bd\'c3\'b0\'a3\'ba\'b9\'c0\'e2\'b5\'b5\'b4\'c2 \f1 O(n^2)\f0\fs18\par
+\par
+\cf1\highlight2\f3\fs19 void\cf3  \cf4 BubbleSort\cf5 (\cf1 int\cf3  \cf5 *\cf6 numArray\cf5 )\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\cf5\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf1 for\cf3  \cf5 (\cf1 int\cf3  \cf4 nTotalReapt\cf3  \cf5 =\cf3  MAX\cf5 ;\cf3  \cf4 nTotalReapt\cf3  \cf5 &gt;\cf3  \cf7 0\cf5 ;\cf3  \cf4 nTotalReapt\cf5 --)\f4\tab\tab\tab\cf3\f3\par
+\tab\cf5\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf1 for\cf3  \cf5 (\cf1 int\cf3  \cf4 nSortReapt\cf3  \cf5 =\cf3  \cf7 0\cf5 ;\cf3  \cf4 nSortReapt\cf3  \cf5 &lt;\cf3  \cf4 nTotalReapt\cf3  \cf5 -\cf3  \cf7 1\cf5 ;\cf3  \cf4 nSortReapt\cf5 ++)\cf3\par
+\tab\tab\cf5\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 if\cf3  \cf5 (\cf6 numArray\cf5 [\cf4 nSortReapt\cf5 ]\cf3  \cf5 &gt;\cf3  \cf6 numArray\cf5 [\cf4 nSortReapt\cf3  \cf5 +\cf3  \cf7 1\cf5 ])\f4\tab\tab\cf3\f3\par
+\tab\tab\tab\cf5\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf4 Swap\cf5 (&amp;\cf6 numArray\cf5 [\cf4 nSortReapt\cf5 ],\cf3  \cf5 &amp;\cf6 numArray\cf5 [\cf4 nSortReapt\cf3  \cf5 +\cf3  \cf7 1\cf5 ]);\cf3\par
+\tab\tab\tab\tab\cf8 //Show(numArray);\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf5\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf5\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf5\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\cf5\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf0\highlight0\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>버블정렬</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-04-01T09:38:22.8270283+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:02:07.9329029+09:00</UpdatedOn>
+  <Words>버블정렬
+	- 두개의 인덱스를 계속 비교해 가며 정한 기준의 값을 뒤로 넘겨 정렬하는 방법
+	- 시간복잡도는 O(n^2)
+
+void BubbleSort(int *numArray)								
+{												
+	for (int nTotalReapt = MAX; nTotalReapt &gt; 0; nTotalReapt--)			
+	{											
+		for (int nSortReapt = 0; nSortReapt &lt; nTotalReapt - 1; nSortReapt++)
+		{										
+			if (numArray[nSortReapt] &gt; numArray[nSortReapt + 1])		
+			{									
+				Swap(&amp;numArray[nSortReapt], &amp;numArray[nSortReapt + 1]);
+				//Show(numArray);						
+			}									
+		}										
+	}											
+}												</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

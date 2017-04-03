@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>22c6bf84-58cd-4443-a9ed-3f2caa060e5e</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil DotumChe;}{\f4\fnil\fcharset0 DotumChe;}{\f5\fnil\fcharset129 DotumChe;}{\f6\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red86\green156\blue214;\red30\green30\blue30;\red220\green220\blue220;\red200\green200\blue200;\red180\green180\blue180;\red127\green127\blue127;\red181\green206\blue168;\red87\green166\blue74;}
+\viewkind4\uc1\pard{\pntext\f6\'B7\tab}{\*\pn\pnlvlblt\pnf6\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'c4\'fc\'c1\'a4\'b7\'c4\f1\fs20\par
+\pard\tab - \f0\fs18\'ba\'d0\'c7\'d2 \'c1\'a4\'ba\'b9\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'bf\'a9 \'bc\'f6\'c7\'e0\'c7\'cf\'b4\'c2 \'be\'cb\'b0\'ed\'b8\'ae\'c1\'f2\f1\fs20\par
+\tab - \f0\fs18\'c7\'c7\'b9\'fe(\'b1\'e2\'c1\'d8\'c1\'a1)\'b0\'fa \f1 right, left\f2\'b8\'a6 \'c0\'cc\'bf\'eb\'c7\'cf\'bf\'a9 \'c1\'a4\'b7\'c4\f1\fs20\par
+\tab - \f2\fs18\'c7\'c7\'b9\'fe\'c0\'bb \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'ba\'d0\'c7\'d2\'c0\'bb \'c7\'d1 \'b4\'d9\'c0\'bd \'bf\'de\'c2\'ca , \'bf\'c0\'b8\'a5\'c2\'ca\'c0\'bb \'b4\'d9\'bd\'c3 \'c1\'a4\'b7\'c4\f1\fs20  \f2\fs18\'c7\'d1\'b4\'d9.\par
+\tab -\fs20\'bd\'c3\'b0\'a3\'ba\'b9\'c0\'e2\'b5\'b5\'b4\'c2 \f1 O(nLogN)\f2\fs18\par
+\par
+\cf1\highlight2\f3\fs19 void\cf3  \cf4 qsort\cf5 (\cf1 int\cf3  \cf5 *\cf6 nArray\cf5 ,\cf3  \cf1 int\cf3  \cf6 left\cf5 ,\cf3  \cf1 int\cf3  \cf6 right\cf5 )\f4\tab\tab\tab\tab\f3\par
+\f4\{\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\cf1\f4\tab\f3 int\cf3  \cf4 nLeft\cf3  \cf5 =\cf3   \cf6 left\cf3  \cf5 +\cf3  \cf7 1\cf5 ;\cf3\f4\tab\tab\tab\tab\tab\tab\f3\par
+\tab\cf1 int\cf3  \cf4 nRight\cf3  \cf5 =\cf3  \cf6 right\cf5 ;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf1 int\cf3  \cf4 p\cf3  \cf5 =\cf3  \cf6 nArray\cf5 [\cf6 left\cf5 ];\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\f3\par
+\tab\cf8 //\f5\'c0\'e7\'b1\'cd\f3  \f5\'c7\'d4\'bc\'f6\f3  \f5\'c5\'bb\'c3\'e2\f3  \f5\'c1\'b6\'b0\'c7\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf1 if\cf3  \cf5 (\cf6 left\cf3  \cf5 &gt;\cf3  \cf6 right\cf5 )\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf1 return\cf5 ;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\cf1\f4\tab\f3 while\cf3  \cf5 (\cf4 nLeft\cf3  \cf5 &lt;=\cf3  \cf4 nRight\cf5 )\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf5\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf1 while\cf3  \cf5 (\cf6 nArray\cf5 [\cf4 nLeft\cf5 ]\cf3  \cf5 &lt;\cf3  \cf4 p\cf5 )\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf4 nLeft\cf5 ++;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf1 while\cf3  \cf5 (\cf6 nArray\cf5 [\cf4 nRight\cf5 ]\cf3  \cf5 &gt;\cf3  \cf4 p\cf5 )\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4 nRight\cf5 --;\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf8 // \f5\'b1\'b8\'c7\'d1\f3  i, j \f5\'c0\'ce\'b5\'a6\'bd\'ba\'c0\'c7\f3  \f5\'b0\'aa\'c0\'bb\f3  \f5\'bc\'ad\'b7\'ce\f3  \f5\'bd\'ba\'bf\'d2\tab\tab\tab\cf3\f3\par
+\tab\tab\cf1 if\cf3  \cf5 (\cf4 nLeft\cf3  \cf5 &lt;=\cf3  \cf4 nRight\cf5 )\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf5\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4 Swap\cf5 (&amp;\cf6 nArray\cf5 [\cf4 nLeft\cf5 ],\cf3  \cf5 &amp;\cf6 nArray\cf5 [\cf4 nRight\cf5 ]);\f4\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4 Show\cf5 (\cf6 nArray\cf5 );\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf5\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf5\}\cf3  \f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\f3\par
+\tab\cf8 //\f5\'c7\'c7\'c6\'e1\'c7\'cf\'b0\'ed\f3  right\f5\'c7\'cf\'b0\'ed\f3  swap\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf6 nArray\cf5 [\cf6 left\cf5 ]\cf3  \cf5 =\cf3  \cf6 nArray\cf5 [\cf4 nRight\cf5 ];\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf6 nArray\cf5 [\cf4 nRight\cf5 ]\cf3  \cf5 =\cf3  \cf4 p\cf5 ;\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\cf4 Show\cf5 (\cf6 nArray\cf5 );\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab\f3\par
+\tab\cf4 qsort\cf5 (\cf6 nArray\cf5 ,\cf3  \cf6 left\cf5 ,\cf3  \cf4 nRight\cf3  \cf5 -\cf3  \cf7 1\cf5 );\cf3  \cf8 // \f5\'bf\'de\'c2\'ca\f3  \f5\'c6\'ed\f3  \f5\'b0\'b0\'c0\'ba\f3  \f5\'b9\'e6\'b9\'fd\'c0\'b8\'b7\'ce\f3  sorting\cf3\par
+\tab\cf4 qsort\cf5 (\cf6 nArray\cf5 ,\cf3  \cf4 nRight\cf3  \cf5 +\cf3  \cf7 1\cf5 ,\cf3  \cf6 right\cf5 );\cf3  \cf8 // \f5\'bf\'c0\'b8\'a5\'c2\'ca\f3  \f5\'c6\'ed\f3  \f5\'b0\'b0\'c0\'ba\f3  \f5\'b9\'e6\'b9\'fd\'c0\'b8\'b7\'ce\f3  sorting\cf3\tab\cf5\}\cf0\highlight0\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>퀵정렬</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-04-01T09:38:34.1670442+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:02:34.9989031+09:00</UpdatedOn>
+  <Words>퀵정렬
+	- 분할 정복을 이용하여 수행하는 알고리즘
+	- 피벗(기준점)과 right, left를 이용하여 정렬
+	- 피벗을 기준으로 분할을 한 다음 왼쪽 , 오른쪽을 다시 정렬 한다.
+	-시간복잡도는 O(nLogN)
+
+void qsort(int *nArray, int left, int right)				
+{										
+	int nLeft =  left + 1;						
+	int nRight = right;							
+	int p = nArray[left];						
+										
+	//재귀 함수 탈출 조건						
+	if (left &gt; right)							
+		return;							
+	while (nLeft &lt;= nRight)						
+	{									
+		while (nArray[nLeft] &lt; p)					
+		nLeft++;							
+		while (nArray[nRight] &gt; p)					
+			nRight--;						
+		// 구한 i, j 인덱스의 값을 서로 스왑			
+		if (nLeft &lt;= nRight)						
+		{								
+			Swap(&amp;nArray[nLeft], &amp;nArray[nRight]);		
+			Show(nArray);						
+		}								
+	} 									
+	//피펏하고 right하고 swap						
+	nArray[left] = nArray[nRight];					
+	nArray[nRight] = p;							
+	Show(nArray);								
+										
+	qsort(nArray, left, nRight - 1); // 왼쪽 편 같은 방법으로 sorting
+	qsort(nArray, nRight + 1, right); // 오른쪽 편 같은 방법으로 sorting	}</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

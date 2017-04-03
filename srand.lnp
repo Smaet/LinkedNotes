@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>038513c7-4e47-4613-a76e-59af8a4178fb</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 srand\par
+\pard\tab - \f1\fs18\'b8\'c5\'b9\'f8 \'b3\'ad\'bc\'f6\'b8\'a6 \'b4\'d9\'b8\'a3\'b0\'d4 \'b9\'df\'bb\'fd\'bd\'c3\'c5\'b0\'b1\'e2 \'c0\'a7\'c7\'cf\'bf\'a9 \'bd\'c3\'b5\'e5(\f0 seed)\f1\'b0\'aa\'c0\'bb \'c1\'d6\'b4\'c2 \'b9\'e6\'b9\'fd\'c0\'bb \'bb\'e7\'bf\'eb\par
+\tab - #\f0 include &lt;time.h&gt;\par
+\tab -  srand(time(NULL)) \f1\'c8\'a3\'c3\'e2\par
+\tab - \'b9\'fc\'c0\'a7\'c1\'f6\'c1\'a4 \'b0\'a1\'b4\'c9 \f0 rand() % 10 -&gt; 0 ~ 9 \f1\'bb\'e7\'c0\'cc\'c0\'c7 \'b3\'ad\'bc\'f6\par
+\f0\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>srand</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:21:44.1205217+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:21:44.1205217+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-27T18:21:13.3862312+09:00</UpdatedOn>
+  <Words>srand
+	- 매번 난수를 다르게 발생시키기 위하여 시드(seed)값을 주는 방법을 사용
+	- #include &lt;time.h&gt;
+	-  srand(time(NULL)) 호출
+	- 범위지정 가능 rand() % 10 -&gt; 0 ~ 9 사이의 난수
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

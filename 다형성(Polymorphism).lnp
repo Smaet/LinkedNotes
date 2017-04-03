@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>d9cd41d3-cff1-46f5-863f-6e8b0a5c42ca</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'b4\'d9\'c7\'fc\'bc\'ba\f1\fs20\par
+\pard\f0\fs18\tab - \'b4\'d9\'c7\'fc\'bc\'ba\'c0\'ba \'be\'ee\'b6\'b2 \'b9\'ae\'b9\'fd\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3 \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\'c0\'c7 \'c8\'a3\'c3\'e2\'b0\'fc\'b0\'e8\'bf\'a1\'bc\'ad \'ba\'b8\'c0\'ce \'c6\'af\'bc\'ba\'c0\'bb \'b0\'a1\'b8\'ae\'c4\'d1 '\'b4\'d9\'c7\'fc\'bc\'ba'\'c0\'cc\'b6\'f3\'b0\'ed \'c7\'d1\'b4\'d9.\par
+\tab   '\'b4\'d9\'c7\'fc\'bc\'ba(Polymorphism)'\'c0\'cc\'b6\'f5 '\'b5\'bf\'c1\'fa\'c0\'cc\'bb\'f3'\'c0\'bb \'c0\'c7\'b9\'cc\'c7\'d1\'b4\'d9. \'c1\'ef, \'b4\'d9\'c0\'bd\'b0\'fa \'b0\'b0\'c0\'ba \'c0\'c7\'b9\'cc\'b8\'a6 \'c1\'f6\'b4\'d1\'b4\'d9.\par
+\par
+\'a1\'a1\tab   "\'b8\'f0\'bd\'c0\'c0\'ba \'b0\'b0\'c0\'ba\'b5\'a5 \'c7\'fc\'c5\'c2\'b4\'c2 \'b4\'d9\'b8\'a3\'b4\'d9"\par
+\par
+\tab   \'c0\'cc\'b8\'a6 C++\'bf\'a1 \'c0\'fb\'bf\'eb\'c7\'cf\'b8\'e9, "\'b9\'ae\'c0\'e5\'c0\'ba \'b0\'b0\'c0\'ba\'b5\'a5 \'b0\'e1\'b0\'fa\'b4\'c2 \'b4\'d9\'b8\'a3\'b4\'d9"\'b7\'ce \'c7\'a5\'c7\'f6\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9.\par
+\par
+\'b0\'a1\'c0\'e5 \'b4\'eb\'c7\'a5\'c0\'fb\'c0\'ce \'bf\'b9\'b7\'ce \'c0\'da\'b7\'e1\'c7\'fc\'c0\'cc \b\f2\'b0\'b0\'c0\'ba \'c6\'f7\'c0\'ce\'c5\'cd\'b0\'a1 \'bb\'f3\'bc\'d3\'b0\'fc\'b0\'e8\'bf\'a1 \'c0\'d6\'b4\'c2 \'bc\'ad\'b7\'ce \'b4\'d9\'b8\'a5 \'b0\'b4\'c3\'bc\'b8\'a6 \'b0\'a1\'b8\'ae\'c5\'b0\'b0\'ed \'b0\'a1\'bb\'f3\'c0\'b8\'b7\'ce \'bc\'b1\'be\'f0\'b5\'c8 \'c7\'d4\'bc\'f6\'b8\'a6\par
+\'c8\'a3\'c3\'e2\'c7\'cf\'b8\'e9 \'c0\'cc\'b4\'c2 \'b4\'d9\'b8\'a5 \'bd\'c7\'c7\'e0\'b0\'e1\'b0\'fa\'b0\'a1 \b0\f0\'b3\'aa\'c5\'b8\'b3\'ad\'b4\'d9. \'b5\'fb\'b6\'f3\'bc\'ad \'c8\'a3\'c3\'e2\'b9\'ae\'c0\'e5\'c0\'bb \'b0\'b0\'c1\'f6\'b8\'b8 \'b0\'e1\'b0\'fa\'b4\'c2 \'b4\'d9\'b8\'a5 '\'b4\'d9\'c7\'fc\'bc\'ba'\'c0\'c7 \'bf\'b9\'b7\'ce \'ba\'bc \'bc\'f6 \'c0\'d6\'b4\'d9.\par
+\par
+\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>다형성(Polymorphism)</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-25T16:20:09.5213486+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:13:49.5800058+09:00</UpdatedOn>
+  <Words>다형성
+	- 다형성은 어떤 문법이 아니라 가상함수의 호출관계에서 보인 특성을 가리켜 '다형성'이라고 한다.
+	  '다형성(Polymorphism)'이란 '동질이상'을 의미한다. 즉, 다음과 같은 의미를 지닌다.
+
+　	  "모습은 같은데 형태는 다르다"
+
+	  이를 C++에 적용하면, "문장은 같은데 결과는 다르다"로 표현할 수 있다.
+
+가장 대표적인 예로 자료형이 같은 포인터가 상속관계에 있는 서로 다른 객체를 가리키고 가상으로 선언된 함수를
+호출하면 이는 다른 실행결과가 나타난다. 따라서 호출문장을 같지만 결과는 다른 '다형성'의 예로 볼 수 있다.
+
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

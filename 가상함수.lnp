@@ -1,12 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>82b35c29-50aa-420a-9e8f-35cc01b0fea9</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil DotumChe;}{\f3\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f4\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue255;\red255\green255\blue255;\red0\green0\blue0;\red43\green145\blue175;\red128\green128\blue128;\red163\green21\blue21;\red0\green128\blue0;}
+\viewkind4\uc1\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f1\fs20\par
+\pard\f0\fs18      \tab - \'b0\'a1\'bb\'f3 \'c7\'d4\'bc\'f6\'b4\'c2 \'c6\'c4\'bb\'fd \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1\'bc\'ad \'b4\'d9\'bd\'c3 \'c1\'a4\'c0\'c7\'c7\'d2 \'b8\'e2\'b9\'f6 \'c7\'d4\'bc\'f6\'c0\'d4\'b4\'cf\'b4\'d9. \par
+     \tab - \'b1\'e2\'ba\'bb \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \'c6\'f7\'c0\'ce\'c5\'cd\'b3\'aa \'c2\'fc\'c1\'b6\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 \'c6\'c4\'bb\'fd \'c5\'ac\'b7\'a1\'bd\'ba \'b0\'b3\'c3\'bc\'b8\'a6 \'c2\'fc\'c1\'b6\'c7\'d2 \'b6\'a7 \'c7\'d8\'b4\'e7 \'b0\'b3\'c3\'bc\'c0\'c7 \'b0\'a1\'bb\'f3 \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'cf\'b0\'ed \'c6\'c4\'bb\'fd \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \'c7\'d4\'bc\'f6 \'b9\'f6\'c0\'fc\'c0\'bb \'bd\'c7\'c7\'e0\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9\par
+    \tab - \'c5\'ac\'b7\'a1\'bd\'ba \'c7\'fc\'bd\'c4\'c0\'c7 \'b0\'b3\'c3\'bc\'bf\'a1\'bc\'ad\'b8\'b8 \'c8\'a3\'c3\'e2 \'b5\'c7\'b9\'c7\'b7\'ce \'c0\'fc\'bf\'aa, \'c1\'a4\'c0\'fb\'c0\'b8\'b7\'ce\'b4\'c2 \'c8\'a3\'c3\'e2 \'c7\'d2\'bc\'f6 \'be\'f8\'c0\'bd.\par
+     \tab - :: \'b9\'fc\'c0\'a7 \'b0\'e1\'c1\'a4 \'bf\'ac\'bb\'ea\'c0\'da\'b7\'ce \'ba\'a3\'c0\'cc\'bd\'ba \'c5\'ac\'b7\'a1\'bd\'ba\'b8\'a6 \'ba\'ce\'b8\'a6\'bc\'f6\'b0\'a1 \'c0\'d6\'b4\'d9.\par
+\tab - \f1 C++\f0\'c4\'c4\'c6\'c4\'c0\'cf\'b7\'af\'b4\'c2 \'bd\'c7\'c1\'a6\'b7\'ce \'b0\'a1\'b8\'ae\'c5\'b0\'b4\'c2 \'b0\'b4\'c3\'bc\'c0\'c7 \'c0\'da\'b7\'e1\'c7\'fc\'c0\'bb \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'c7\'cf\'b4\'c2\'b0\'d4 \'be\'c6\'b4\'d1, \'c6\'f7\'c0\'ce\'c5\'cd \'ba\'af\'bc\'f6\'c0\'c7 \'c0\'da\'b7\'e1\'c7\'fc\'c0\'bb \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'c6\'c7\'b4\'dc \'c7\'cf\'bf\'a9 \'b8\'b8\'be\'e0 \'c0\'da\'b7\'e1\'c7\'fc\'c0\'bb \'ba\'ce\'b8\'f0\'c5\'ac\'b7\'a1\'bd\'ba\'b7\'ce \'c6\'f7\'c0\'ce\'c5\'cd 2\'b0\'b3\'b8\'a6 \'bc\'b1\'be\'f0\'c7\'cf\'b0\'ed \'c7\'cf\'b3\'aa\'b4\'c2 \'ba\'ce\'b8\'f0 \'c7\'cf\'b3\'aa\'b4\'c2 \'c0\'da\'bd\'c4\'c0\'c7 \'c1\'d6\'bc\'d2\'b8\'a6 \'b3\'d6\'be\'fa\'b4\'d9\'b8\'e9 \'b5\'d1\'b4\'d9 \'ba\'ce\'b8\'f0\'bf\'a1 \'c0\'d6\'b4\'c2 \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2 \'c7\'d1\'b4\'d9.\par
+    \tab - \'bc\'f8\'bc\'f6\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\par
+     \tab - \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6 \'c5\'d7\'c0\'cc\'ba\'ed\par
+\tab\par
+\tab\tab\par
+\par
+\par
+\cf1\highlight2\f2\fs19 class\cf3  \cf4 Account\cf3  \par
+\{\par
+\cf1 private\cf3 :\par
+\tab\cf1 double\cf3  _balance;\par
+\cf1 public\cf3 :\par
+\tab Account(\cf1 double\cf3  \cf5 d\cf3 ) \{ _balance = \cf5 d\cf3 ; \}\par
+\tab\cf1 virtual\cf3  \cf1 double\cf3  GetBalance() \{ \cf1 return\cf3  _balance; \}\par
+\tab\cf1 virtual\cf3  \cf1 void\cf3  PrintBalance() \{ cerr &lt;&lt; \cf6 "Error. Balance not available for base type."\cf3  &lt;&lt; endl; \}\par
+\par
+\};\par
+\par
+\cf1 class\cf3  \cf4 CheckingAccount\cf3  : \cf1 public\cf3  \cf4 Account\cf3  \par
+\{\par
+\cf1 public\cf3 :\par
+\tab CheckingAccount(\cf1 double\cf3  \cf5 d\cf3 ) : \cf4 Account\cf3 (\cf5 d\cf3 ) \{\}\par
+\tab\cf1 void\cf3  PrintBalance() \{ cout &lt;&lt; \cf6 "Checking account balance: "\cf3  &lt;&lt; GetBalance() &lt;&lt; endl; \}\par
+\};\par
+\par
+\cf1 class\cf3  \cf4 SavingsAccount\cf3  : \cf1 public\cf3  \cf4 Account\cf3  \{\par
+\cf1 public\cf3 :\par
+\tab SavingsAccount(\cf1 double\cf3  \cf5 d\cf3 ) : \cf4 Account\cf3 (\cf5 d\cf3 ) \{\}\par
+\tab\cf1 void\cf3  PrintBalance() \{ cout &lt;&lt; \cf6 "Savings account balance: "\cf3  &lt;&lt; GetBalance(); \}\par
+\};\par
+\par
+\cf1 int\cf3  main() \par
+\{\par
+\tab\cf7 //// Create objects of type CheckingAccount and SavingsAccount.  \cf3\par
+\tab\cf4 CheckingAccount\cf3  *pChecking = \cf1 new\cf3  \cf4 CheckingAccount\cf3 (100.00);\par
+\tab\cf4 SavingsAccount\cf3   *pSavings = \cf1 new\cf3  \cf4 SavingsAccount\cf3 (1000.00);\par
+\par
+\tab\cf7 //// Call PrintBalance using a pointer to Account.  \cf3\par
+\tab\cf4 Account\cf3  *pAccount = pChecking;\par
+\tab pAccount-&gt;\cf4 Account\cf3 ::PrintBalance();\par
+\par
+\tab\cf7 // Call PrintBalance using a pointer to Account.  \cf3\par
+\tab\cf7 pAccount = pSavings;\cf3\par
+\tab\cf7 pAccount-&gt;PrintBalance();\cf3\par
+\cf0\highlight0\f1\fs20\}\par
+\par
+ - Account\f3\fs18\'c0\'c7 \'c6\'f7\'c0\'ce\'c5\'cd\'b8\'a6  \f1 pChecking \f3\'c0\'bb \'b0\'a1\'b8\'a3\'c5\'b0\'b0\'d4 \'c7\'cf\'b0\'ed \f1 printBalance\f3\'b8\'a6 \'b0\'a1\'b8\'a3\'c5\'b0\'b8\'e9 \f1 Getbalance\f3\'b0\'a1 \f1 virtual\f3\'c0\'cc\'b9\'c7\'b7\'ce \'b4\'d9\'b8\'a3\'b0\'d4 \'b3\'aa\'bf\'c2\'b4\'d9.\par
+\f1\fs20\par
+&lt;\f3\'c2\'fc\'b0\'ed&gt;\par
+\tab - http://egloos.zum.com/printf/v/1784623\f1\par
+\par
+\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>가상함수</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:14:01.7855736+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:14:01.7855736+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-31T17:57:19.8702911+09:00</UpdatedOn>
+  <Words>가상함수
+     	- 가상 함수는 파생 클래스에서 다시 정의할 멤버 함수입니다. 
+     	- 기본 클래스의 포인터나 참조를 사용하여 파생 클래스 개체를 참조할 때 해당 개체의 가상 함수를 호출하고 파생 클래스의 함수 버전을 실행할 수 있습니다
+    	- 클래스 형식의 개체에서만 호출 되므로 전역, 정적으로는 호출 할수 없음.
+     	- :: 범위 결정 연산자로 베이스 클래스를 부를수가 있다.
+	- C++컴파일러는 실제로 가리키는 객체의 자료형을 기준으로 하는게 아닌, 포인터 변수의 자료형을 기준으로 판단 하여 만약 자료형을 부모클래스로 포인터 2개를 선언하고 하나는 부모 하나는 자식의 주소를 넣었다면 둘다 부모에 있는 함수를 호출 한다.
+    	- 순수가상함수
+     	- 가상함수 테이블
+	
+		
+
+
+class Account 
+{
+private:
+	double _balance;
+public:
+	Account(double d) { _balance = d; }
+	virtual double GetBalance() { return _balance; }
+	virtual void PrintBalance() { cerr &lt;&lt; "Error. Balance not available for base type." &lt;&lt; endl; }
+
+};
+
+class CheckingAccount : public Account 
+{
+public:
+	CheckingAccount(double d) : Account(d) {}
+	void PrintBalance() { cout &lt;&lt; "Checking account balance: " &lt;&lt; GetBalance() &lt;&lt; endl; }
+};
+
+class SavingsAccount : public Account {
+public:
+	SavingsAccount(double d) : Account(d) {}
+	void PrintBalance() { cout &lt;&lt; "Savings account balance: " &lt;&lt; GetBalance(); }
+};
+
+int main() 
+{
+	//// Create objects of type CheckingAccount and SavingsAccount.  
+	CheckingAccount *pChecking = new CheckingAccount(100.00);
+	SavingsAccount  *pSavings = new SavingsAccount(1000.00);
+
+	//// Call PrintBalance using a pointer to Account.  
+	Account *pAccount = pChecking;
+	pAccount-&gt;Account::PrintBalance();
+
+	// Call PrintBalance using a pointer to Account.  
+	pAccount = pSavings;
+	pAccount-&gt;PrintBalance();
+}
+
+ - Account의 포인터를  pChecking 을 가르키게 하고 printBalance를 가르키면 Getbalance가 virtual이므로 다르게 나온다.
+
+&lt;참고&gt;
+	- http://egloos.zum.com/printf/v/1784623
+
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

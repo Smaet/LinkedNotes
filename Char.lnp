@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>5f3d9fdc-b97c-4dd5-9a1d-763b8022a5d5</PageId>
-  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}}
-\viewkind4\uc1\pard\lang1042\f0\fs20 *\f1 char\f0\par
-\'c5\'a9\'b1\'e2 : 1\f1 byte \par
-\f0\fs18\'b9\'fc\'c0\'a7 : -128 ~ 127\par
-\f1\fs20\par
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 char\f1\par
+\pard\'c5\'a9\'b1\'e2 : 1\f0 byte \par
+\f1\fs18\'b9\'fc\'c0\'a7 : -128 ~ 127\par
+\f0\fs20\par
 }
 &#x0;</Text>
   <Encrypted>false</Encrypted>
@@ -13,8 +13,8 @@
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T13:23:51.6761634+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T13:41:07.9425076+09:00</UpdatedOn>
-  <Words>*char
+  <UpdatedOn>2017-03-28T10:29:23.9323372+09:00</UpdatedOn>
+  <Words>char
 크기 : 1byte 
 범위 : -128 ~ 127
 </Words>

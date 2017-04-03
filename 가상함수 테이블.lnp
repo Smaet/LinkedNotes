@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>f56ff366-3bd1-4565-accc-ffb455f6431d</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f1\fs20  \f0\fs18\'c5\'d7\'c0\'cc\'ba\'ed(\f1 vTable)\tab\fs20\par
+\pard\fs18\tab - \f0\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\'b0\'a1 \'bc\'b1\'be\'f0\'b5\'c7\'b8\'e9 \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f1\fs20  \f0\fs18\'c5\'d7\'c0\'cc\'ba\'ed\'c0\'cc \'bb\'fd\'b1\'e2\'b8\'e7 \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\'b0\'a1 \'c0\'d6\'b4\'c2 \'c5\'ac\'b7\'a1\'bd\'ba \'bf\'a1\'b4\'c2 \'b1\'d7 \'c5\'d7\'c0\'cc\'ba\'ed\'c0\'bb \'b0\'a1\'b8\'a3\'c5\'b0\'b4\'c2 \'c6\'f7\'c0\'ce\'c5\'cd\'b5\'b5 \'b0\'b0\'c0\'cc \'bb\'fd\'b1\'e2\'b0\'ed \'c5\'a9\'b1\'e2\'b5\'b5 4\f1 byte\f0\'b4\'c3\'be\'ee\'b3\'ad\'b4\'d9.\f1\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>가상함수 테이블</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:18:31.8791692+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:18:31.8791692+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-26T14:57:01.0979571+09:00</UpdatedOn>
+  <Words>가상함수 테이블(vTable)	
+	- 가상함수가 선언되면 가상함수 테이블이 생기며 가상함수가 있는 클래스 에는 그 테이블을 가르키는 포인터도 같이 생기고 크기도 4byte늘어난다.</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

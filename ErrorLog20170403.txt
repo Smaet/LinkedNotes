@@ -1,0 +1,20 @@
+2017-04-03 오전 9:57:38
+Unable to save during form closing.
+System.IO.FileNotFoundException: 'C:\Users\user\AppData\Local\Temp\dtllwyoh.dll' 파일을 찾을 수 없습니다.
+파일 이름: 'C:\Users\user\AppData\Local\Temp\dtllwyoh.dll'
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+   위치: Microsoft.CSharp.CSharpCodeGenerator.FromFileBatch(CompilerParameters options, String[] fileNames)
+   위치: Microsoft.CSharp.CSharpCodeGenerator.FromSourceBatch(CompilerParameters options, String[] sources)
+   위치: Microsoft.CSharp.CSharpCodeGenerator.System.CodeDom.Compiler.ICodeCompiler.CompileAssemblyFromSourceBatch(CompilerParameters options, String[] sources)
+   위치: System.CodeDom.Compiler.CodeDomProvider.CompileAssemblyFromSource(CompilerParameters options, String[] sources)
+   위치: System.Xml.Serialization.Compiler.Compile(Assembly parent, String ns, XmlSerializerCompilerParameters xmlParameters, Evidence evidence)
+   위치: System.Xml.Serialization.TempAssembly.GenerateAssembly(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, Evidence evidence, XmlSerializerCompilerParameters parameters, Assembly assembly, Hashtable assemblies)
+   위치: System.Xml.Serialization.TempAssembly..ctor(XmlMapping[] xmlMappings, Type[] types, String defaultNamespace, String location, Evidence evidence)
+   위치: System.Xml.Serialization.XmlSerializer.GenerateTempAssembly(XmlMapping xmlMapping, Type type, String defaultNamespace)
+   위치: System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNamespace)
+   위치: LinkedNotes.AppSettings.ToXML()
+   위치: LinkedNotes.Settings.Save()
+   위치: LinkedNotes.frmMain.Form1_FormClosing(Object sender, FormClosingEventArgs e)

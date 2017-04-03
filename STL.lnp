@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>5ba69b5b-b718-467a-96d0-213b3f03d858</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18 STL Standard Templete Libaray\fs20\par
+\pard\tab * \f1\'c1\'d6\'bf\'e4 \'b1\'b8\'bc\'ba \'bf\'e4\'bc\'d2\par
+\tab\tab - \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca, \'b9\'dd\'ba\'b9\'c0\'da, \'be\'cb\'b0\'ed\'b8\'ae\'c1\'f2, \'c7\'d4\'bc\'f6\'c0\'da\par
+\tab 1. \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\par
+\tab\tab - \'b0\'b4\'c3\'bc\'b5\'e9\'c0\'bb \'c0\'fa\'c0\'e5\'c7\'cf\'b4\'c2 \'b0\'b4\'c3\'bc \'c8\'a4\'c0\'ba \'c5\'ac\'b7\'a1\'bd\'ba (\f0 Vector, List, String, Map \f1\'b5\'ee\'b5\'ee\f0 )\par
+\tab 2. \f1\'b9\'dd\'ba\'b9\'c0\'da\par
+\tab\tab - \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'bf\'a1 \'c0\'fa\'c0\'e5\'b5\'c8 \'bf\'e4\'bc\'d2\'b8\'a6 \'bc\'f8\'c8\'b8 \'c7\'cf\'b0\'ed \'c1\'a2\'b1\'d9\'c7\'cf\'b4\'c2 \'b0\'b4\'c3\'bc \'c8\'a4\'c0\'ba \'c5\'ac\'b7\'a1\'bd\'ba\par
+\tab 3. \'be\'cb\'b0\'ed\'b8\'ae\'c1\'f2\par
+\tab\tab - \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'b4\'d9\'b7\'e7\'b1\'e2 \'c0\'a7\'c7\'d1 \'c0\'cf\'b7\'c3\'c0\'c7 \'c7\'d4\'bc\'f6 (\f0 Find, Short, Search \f2\'b5\'ee)\par
+\tab 4. \'c7\'d4\'bc\'f6\'c0\'da\par
+\tab\tab - \'c7\'d4\'bc\'f6\'c3\'b3\'b7\'b3 \'b5\'bf\'c0\'db\'c7\'cf\'b4\'c2 \'b0\'b4\'c3\'bc\'b7\'ce \f0 operator() \f2\'bf\'ac\'bb\'ea\'c0\'da\'b8\'a6 \'bf\'c0\'b9\'f6\'b7\'ce\'b5\'f9\f0  \f2\'c7\'d1 \'c5\'ac\'b7\'a1\'bd\'ba \'b0\'b4\'c3\'bc\par
+\par
+&lt;\'c2\'fc\'b0\'ed \'bb\'e7\'c0\'cc\'c6\'ae&gt;\par
+\tab - http://blog.daum.net/coolprogramming/82\par
+\tab\par
+\f0\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>STL</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:20:26.3113792+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:20:26.3113792+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-28T11:50:42.2304523+09:00</UpdatedOn>
+  <Words>STL Standard Templete Libaray
+	* 주요 구성 요소
+		- 컨테이너, 반복자, 알고리즘, 함수자
+	1. 컨테이너
+		- 객체들을 저장하는 객체 혹은 클래스 (Vector, List, String, Map 등등)
+	2. 반복자
+		- 컨테이너에 저장된 요소를 순회 하고 접근하는 객체 혹은 클래스
+	3. 알고리즘
+		- 데이터를 다루기 위한 일련의 함수 (Find, Short, Search 등)
+	4. 함수자
+		- 함수처럼 동작하는 객체로 operator() 연산자를 오버로딩 한 클래스 객체
+
+&lt;참고 사이트&gt;
+	- http://blog.daum.net/coolprogramming/82
+	
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

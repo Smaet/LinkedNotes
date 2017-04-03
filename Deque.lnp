@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>50fa407c-6bc4-40dc-ae6b-4ffda54f0282</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 Deque (double ended queue)\line\par
+\pard\tab -  deque \f1\'b4\'c2 vector\'c0\'c7 \'b8\'de\'b8\'f0\'b8\'ae \'c7\'d2\'b4\'e7 \'b4\'dc\'c1\'a1\'c0\'bb \'c7\'d8\'b0\'e1\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8 \'bf\'a9\'b7\'af \'b0\'b3\'c0\'c7 \'b8\'de\'b8\'f0\'b8\'ae \'ba\'ed\'b7\'cf\'c0\'bb \'c7\'d2\'b4\'e7\'c7\'cf\'b0\'ed \'bb\'e7\'bf\'eb\'c0\'da\'bf\'a1\'b0\'d4\'b4\'c2 \'c7\'cf\'b3\'aa\'c0\'c7 \'ba\'ed\'b7\'cf\'c3\'b3\'b7\'b3 \'ba\'b8\'c0\'cc\'b0\'d4 \'c7\'cf\'b4\'c2 \'c1\'a4\'c3\'a5\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9.\f0\par
+\par
+\tab - \f1\fs18\'b0\'ad\'c1\'a1 :\par
+\tab\tab 1. \'b0\'b3\'ba\'b0 \'bf\'f8\'bc\'d2\'b5\'e9\'c0\'bb \f0 index\f2\'b7\'ce \'c1\'a2\'b1\'d9 \'b0\'a1\'b4\'c9\par
+\tab\tab 2. \'bf\'f8\'bc\'d2\'b8\'a6 \'b3\'a1 \'bb\'d3\'b8\'b8\'be\'c6\'b4\'cf\'b6\'f3 \'be\'d5\'bf\'a1\'bc\'ad\'b5\'b5 \'bb\'f0\'c0\'d4/\'c1\'a6\'b0\'c5 \'b0\'a1\'b4\'c9\'c7\'cf\'b8\'e7 \'ba\'fc\'b8\'a3\'b4\'d9.\par
+\tab\tab 3. \'be\'ee\'b6\'b0\'c7\'d1 \'bc\'f8\'bc\'ad\'b7\'ce\'b5\'b5 \'bf\'f8\'bc\'d2\'b5\'e9\'c0\'bb \'bc\'f8\'c8\'b8 \'b0\'a1\'b4\'c9\par
+\tab\tab 4. \f0 Vector\f2\'bf\'a1 \'ba\'f1\'c7\'d8 \'c8\'ae\'c0\'e5 \'ba\'f1\'bf\'eb\'c0\'cc \'c0\'fd\'b0\'a8\par
+\tab\par
+\tab - \'be\'e0\'c1\'a1 : \par
+\tab\tab 1. \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'c0\'c7 \'bd\'c3\'c0\'db\'b0\'fa \'b3\'a1\'c0\'cc \'be\'c6\'b4\'d1 \'c0\'a7\'c4\'a1\'bf\'a1\'bc\'ad \'bb\'f0\'c0\'d4/\'c1\'a6\'b0\'c5 \'bc\'f6\'c7\'e0\'bd\'c3 \f0 List\f2\'bf\'a1 \'ba\'f1\'c7\'d8 \'c7\'f6\'c0\'fa\'c8\'f7 \'b6\'b3\'be\'ee\'c1\'f8\'b4\'d9.\fs20\par
+\f0\tab\tab 2. \f2\'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0  \f2\'c3\'b3\'c0\'bd\'ba\'ce\'c5\'cd \'b3\'a1\'b1\'ee\'c1\'f6 \'bf\'ac\'bc\'d3 \'b8\'de\'b8\'f0\'b8\'ae\f0  \f2\'b0\'f8\'b0\'a3\'c0\'cc \'be\'c6\'b4\'cf\'b9\'c7\'b7\'ce \f0 vector\f2\'bf\'a1\'bc\'ad \'b0\'a1\'b4\'c9\'c7\'df\'b4\'f8 \'bf\'f8\'bc\'d2\'b5\'e9\'b0\'a3 \'c6\'f7\'c0\'ce\'c5\'cd\f0  \f2\'bf\'ac\'bb\'ea\'c0\'cc \'ba\'d2\'b0\'a1\'b4\'c9 \'c7\'cf\'b4\'d9.\par
+\par
+\fs18\tab\tab * \f0 Vector\f2\'bf\'cd\'c0\'c7 \'c2\'f7\'c0\'cc\'c1\'a1\par
+\tab\tab\tab 1. \f0 Vector\f2\'b4\'c2 \'b5\'da\'bf\'a1\'bc\'ad\'b8\'b8 \'bb\'f0\'c0\'d4/\'c1\'a6\'b0\'c5\'b0\'a1 \'ba\'fc\'b8\'a3\'c1\'f6\'b8\'b8 \f0 deque\f2\'b4\'c2 \'be\'d5/\'b3\'a1 \'bf\'a1\'bc\'ad \'bb\'f0\'c0\'d4/\'c1\'a6\'b0\'c5\'c0\'c7 \'c8\'bf\'c0\'b2\'c0\'cc \'b3\'f4\'b4\'d9.\par
+\tab\tab\tab 2. \f0 Vector\f2\'c0\'c7 \'b0\'e6\'bf\'ec\'bf\'a1\'b4\'c2 \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0\fs20  \f2\'b3\'bb\'ba\'ce\'c0\'c7 \f0 capacity\f2\'b0\'a1 \'b0\'ed\'b0\'a5\'b5\'c7\'b8\'e9 \'c0\'cc\'b8\'a6 \'c8\'ae\'c0\'e5\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d8 \'b8\'de\'b8\'f0\'b8\'ae\f0  \f2\'c0\'e7\'c7\'d2\'b4\'e7(\f0 reallocation) \f2\'c0\'cc \'b9\'df\'bb\'fd \'c7\'cf\'c1\'f6\'b8\'b8 \f0 deque\f2\'c0\'c7 \'b0\'e6\'bf\'ec\'bf\'a1\'b4\'c2 \'c0\'cf\'c1\'a4 \'c5\'a9\'b1\'e2\'b8\'a6 \'b0\'a1\'c1\'f6\'b4\'c2 \f0 chunk \f2\'b4\'dc\'c0\'a7\'b7\'ce \'c8\'ae\'c0\'e5\'b5\'c7\'b4\'c2 \'b9\'e6\'bd\'c4\par
+\tab\tab\tab 3. \f0 Vector\f2\'b4\'c2 \'b8\'de\'b8\'f0\'b8\'ae \'ba\'ed\'b7\'cf\'bf\'a1 \'bf\'ac\'bc\'d3\'c0\'fb\'c0\'b8\'b7\'ce \'c0\'fa\'c0\'e5\'c0\'cc \'b5\'c7\'c1\'f6\'b8\'b8 \f0 Deque\f2\'b4\'c2 \'c7\'cf\'b3\'aa\'c0\'c7 \'b8\'de\'b8\'f0\'b8\'ae\'b0\'a1 \'be\'c6\'b4\'d1 \'bf\'a9\'b7\'af \'b8\'de\'b8\'f0\'b8\'ae\'ba\'ed\'b7\'cf\'bf\'a1 \'b3\'aa\'b4\'b5\'be\'ee \'c0\'fa\'c0\'e5\'b5\'c8\'b4\'d9\'b4\'c2 \'c1\'a1.\par
+\tab\tab\tab\par
+\par
+\f0\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>Deque</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:18:23.2344392+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T11:18:44.9665231+09:00</UpdatedOn>
+  <Words>Deque (double ended queue)
+
+	-  deque 는 vector의 메모리 할당 단점을 해결하기 위해 여러 개의 메모리 블록을 할당하고 사용자에게는 하나의 블록처럼 보이게 하는 정책을 사용한다.
+
+	- 강점 :
+		1. 개별 원소들을 index로 접근 가능
+		2. 원소를 끝 뿐만아니라 앞에서도 삽입/제거 가능하며 빠르다.
+		3. 어떠한 순서로도 원소들을 순회 가능
+		4. Vector에 비해 확장 비용이 절감
+	
+	- 약점 : 
+		1. 컨테이너의 시작과 끝이 아닌 위치에서 삽입/제거 수행시 List에 비해 현저히 떨어진다.
+		2. 컨테이너 처음부터 끝까지 연속 메모리 공간이 아니므로 vector에서 가능했던 원소들간 포인터 연산이 불가능 하다.
+
+		* Vector와의 차이점
+			1. Vector는 뒤에서만 삽입/제거가 빠르지만 deque는 앞/끝 에서 삽입/제거의 효율이 높다.
+			2. Vector의 경우에는 컨테이너 내부의 capacity가 고갈되면 이를 확장하기 위해 메모리 재할당(reallocation) 이 발생 하지만 deque의 경우에는 일정 크기를 가지는 chunk 단위로 확장되는 방식
+			3. Vector는 메모리 블록에 연속적으로 저장이 되지만 Deque는 하나의 메모리가 아닌 여러 메모리블록에 나뉘어 저장된다는 점.
+			
+
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

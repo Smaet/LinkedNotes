@@ -1,12 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>b7dd8f8d-734f-474c-ba31-49278bdb82cc</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'bc\'f8\'bc\'f6\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f1\fs20\par
+\pard\tab -  \f0\fs18\'ba\'ce\'b8\'f0 \'c7\'d4\'bc\'f6\'bf\'a1\'b4\'c2 \'c7\'d4\'bc\'f6\'c0\'c7 \'bc\'b1\'be\'f0\'b8\'b8 \'b5\'c7\'be\'ee \'c0\'d6\'b0\'ed \'c1\'a4\'c0\'c7\'b8\'b8 \'b5\'c7\'be\'ee\'c0\'d6\'c0\'b8\'b8\'e7 \'c0\'da\'bd\'c4 \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1\'bc\'ad\'b4\'c2 \'b9\'dd\'b5\'e5\'bd\'c3 \'c0\'e7\'c1\'a4\'c0\'c7 \'c7\'d8\'be\'df\'c7\'d1\'b4\'d9.\par
+\tab - \'c0\'cc\'b7\'af\'c7\'d1 \'bc\'f8\'bc\'f6\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\'b0\'a1 \'b5\'e9\'be\'ee\'b0\'a3 \'c5\'ac\'b7\'a1\'bd\'ba\'b8\'a6 \'c3\'df\'bb\'f3\'c5\'ac\'b7\'a1\'bd\'ba\'b6\'f3\'b0\'ed \'ba\'ce\'b8\'a3\'b8\'e7 \'c0\'cc \'c5\'ac\'b7\'a1\'bd\'ba\'b4\'c2 \'b0\'b4\'c3\'bc\'b8\'a6 \'b8\'b8\'b5\'e9\'bc\'f6 \'be\'f8\'b4\'d9, \'b4\'eb\'bd\'c5 \'c6\'f7\'c0\'ce\'c5\'cd \'bc\'b1\'be\'f0\'c0\'ba \'b0\'a1\'b4\'c9\par
+\tab - \'b8\'b8\'be\'e0 \'bb\'f3\'bc\'d3\'b9\'de\'c0\'ba \'c5\'ac\'b7\'a1\'bd\'ba\'b5\'b5 \'c1\'a4\'c0\'c7\'b8\'a6 \'c7\'cf\'c1\'f6 \'be\'ca\'b4\'c2\'b4\'d9\'b8\'e9 \'b1\'d7 \'c5\'ac\'b7\'a1\'bd\'ba\'b5\'b5 \'c3\'df\'bb\'f3 \'c5\'ac\'b7\'a1\'bd\'ba\'b0\'a1 \'b5\'c8\'b4\'d9. \par
+\'bf\'b9)\par
+class Parent \par
+\{\par
+public:\par
+    virtual void func() = 0;\par
+\};\par
+\par
+class Child : public Parent \par
+\{\par
+public:\par
+    virtual void func() \{ cout &lt;&lt; "\'c0\'da\'bd\'c4 \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 func \'c7\'d4\'bc\'f6 \'c8\'a3\'c3\'e2!" &lt;&lt; endl; \}\par
+\};\par
+\par
+\f1\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>순수가상함수</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:14:08.1875852+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:14:08.1875852+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-26T14:38:36.9763538+09:00</UpdatedOn>
+  <Words>순수가상함수
+	-  부모 함수에는 함수의 선언만 되어 있고 정의만 되어있으며 자식 클래스에서는 반드시 재정의 해야한다.
+	- 이러한 순수가상함수가 들어간 클래스를 추상클래스라고 부르며 이 클래스는 객체를 만들수 없다, 대신 포인터 선언은 가능
+	- 만약 상속받은 클래스도 정의를 하지 않는다면 그 클래스도 추상 클래스가 된다. 
+예)
+class Parent 
+{
+public:
+    virtual void func() = 0;
+};
+
+class Child : public Parent 
+{
+public:
+    virtual void func() { cout &lt;&lt; "자식 클래스의 func 함수 호출!" &lt;&lt; endl; }
+};
+
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

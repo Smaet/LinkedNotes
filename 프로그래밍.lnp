@@ -7,6 +7,22 @@
 \f1\fs18{\pntext\f2\'B7\tab}\'bd\'c3\'bd\'ba\'c5\'db \'c7\'c1\'b7\'ce\'b1\'d7\'b7\'a1\'b9\'d6\f0\fs20\par
 {\pntext\f2\'B7\tab}ETC\par
 {\pntext\f2\'B7\tab}Unity\par
+{\pntext\f2\'B7\tab}3D\par
+\f1{\pntext\f2\'B7\tab}\'c1\'a4\'b7\'c4\f0\par
+\pard\li150\par
+\par
+\par
+\f1\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6(\'b4\'d9\'c7\'fc\'bc\'ba), \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6 \'bc\'d2\'b8\'ea\'c0\'da\par
+\'c3\'df\'bb\'f3\'c8\'ad\par
+\'b8\'d6\'c6\'bc,\'c0\'af\'b4\'cf\'c4\'da\'b5\'e5\f0\par
+\f1\'b6\'f3\'c0\'cc\'ba\'ea\'b7\'af\'b8\'ae\par
+\'b0\'b4\'c3\'bc \'c1\'f6\'c7\'e2\par
+\'ba\'f2\'bf\'a3\'b5\'f0\'be\'c8, \'b8\'ae\'c6\'b2\'bf\'a3\'b5\'f0\'be\'c8\par
+\par
+\'be\'ee\'b5\'f0\'bf\'a1 \'bb\'e7\'bf\'eb\par
+\'be\'ee\'b6\'b2\'b6\'a7 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2\'b0\'a1\par
+\'bb\'f9\'c7\'c3\'c4\'da\'b5\'e5 \par
+\f0\par
 }
 &#x0;</Text>
   <Encrypted>false</Encrypted>
@@ -14,12 +30,28 @@
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-19T17:35:27.2542259+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T13:36:57.9959122+09:00</UpdatedOn>
+  <UpdatedOn>2017-04-01T16:31:44.1631527+09:00</UpdatedOn>
   <Words>C++
 C#
 시스템 프로그래밍
 ETC
-Unity</Words>
+Unity
+3D
+정렬
+
+
+
+가상함수(다형성), 가상함수 소멸자
+추상화
+멀티,유니코드
+라이브러리
+객체 지향
+빅엔디안, 리틀엔디안
+
+어디에 사용
+어떤때 사용하는가
+샘플코드 
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
   <PublishedUrl />
   <PublishedService>0</PublishedService>

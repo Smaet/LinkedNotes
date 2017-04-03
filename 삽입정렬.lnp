@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>42fcc646-5b9d-4e1d-8c92-045c14901ba4</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil DotumChe;}{\f4\fnil\fcharset0 DotumChe;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red86\green156\blue214;\red30\green30\blue30;\red220\green220\blue220;\red180\green180\blue180;\red200\green200\blue200;\red181\green206\blue168;\red218\green218\blue218;}
+\viewkind4\uc1\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20\'bb\'f0\'c0\'d4\'c1\'a4\'b7\'c4\f1\par
+\pard\tab - \f2\'c7\'f6\'c0\'e7 \'c0\'ce\'b5\'a6\'bd\'ba\'b4\'c2 \'ba\'b0\'b7\'ce\'b7\'ce \'c0\'fa\'c0\'e5\'c7\'cf\'b0\'ed \'b1\'d7 \'b4\'d9\'c0\'bd \'c0\'ce\'b5\'a6\'bd\'ba \'ba\'ce\'c5\'cd \'c3\'a3\'be\'c6 \'b3\'aa\'be\'c6\'b0\'a1\'b0\'ed \'c3\'a3\'c0\'b8\'b8\'e9 \'be\'d5\'c0\'b8\'b7\'ce \'b9\'d0\'be\'ee \'b3\'d6\'b4\'c2\'b4\'d9.\par
+\tab -\'bd\'c3\'b0\'a3\'ba\'b9\'c0\'e2\'b5\'b5\'b4\'c2 \f1 O(n)\f2\par
+\f1\par
+\cf1\highlight2\f3\fs19 for\cf3  \cf4 (\cf1 int\cf3  \cf5 i\cf3  \cf4 =\cf3  \cf6 1\cf4 ;\cf3  \cf5 i\cf3  \cf4 &lt;\cf3  \cf7 count\cf4 ;\cf3  \cf5 i\cf4 ++)\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 int\cf3  \cf5 curIndex\cf3  \cf4 =\cf3  \cf5 i\cf4 ;\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 int\cf3  \cf5 changeIndex\cf3  \cf4 =\cf3  \cf4 -\cf6 1\cf4 ;\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 for\cf3  \cf4 (\cf1 int\cf3  \cf5 j\cf3  \cf4 =\cf3  \cf5 i\cf4 -\cf6 1\cf4 ;\cf3  \cf5 j\cf3  \cf4 &gt;=\cf6 0\cf3  \cf4 ;\cf3  \cf5 j\cf4 --)\f4\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf1 if\cf3  \cf4 (\cf7 cur_dArray\cf4 [\cf5 curIndex\cf4 ]\cf3  \cf4 &lt;\cf3  \cf7 cur_dArray\cf4 [\cf5 j\cf4 ])\f4\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\tab\cf5 changeIndex\cf3  \cf4 =\cf3  \cf5 j\cf3  \cf4 -\cf3  \cf6 1\cf4 ;\f4\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\tab\cf1 if\cf3  \cf4 (\cf5 changeIndex\cf3  \cf4 &lt;=\cf3  \cf6 0\cf4 )\f4\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\tab\tab\cf5 changeIndex\cf3  \cf4 =\cf3  \cf6 0\cf4 ;\f4\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf4\}\cf3\tab\f4\tab\tab\tab\tab\tab\tab\f3\par
+\tab\tab\tab\cf4\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf1 if\cf3  \cf4 (\cf5 changeIndex\cf3  \cf4 !=\cf3  \cf4 -\cf6 1\cf4 )\f4\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\{\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf1 int\cf3  \cf5 tmp\cf4 ;\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf5 tmp\cf3  \cf4 =\cf3  \cf7 cur_dArray\cf4 [\cf5 curIndex\cf4 ];\f4\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf1 for\cf3  \cf4 (\cf1 int\cf3  \cf5 k\cf3  \cf4 =\cf3  \cf5 curIndex\cf4 ;\cf3  \cf5 k\cf3  \cf4 &gt;\cf3  \cf6 0\cf4 ;\cf3  \cf5 k\cf4 --)\f4\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\tab\cf7 cur_dArray\cf4 [\cf5 k\cf4 ]\cf3  \cf4 =\cf3  \cf7 cur_dArray\cf4 [\cf5 k\cf3  \cf4 -\cf3  \cf6 1\cf4 ];\f4\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf7 cur_dArray\cf4 [\cf5 changeIndex\cf4 ]\cf3  \cf4 =\cf3  \cf5 tmp\cf4 ;\f4\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\tab\cf5 Show\cf4 ();\f4\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\tab\cf4\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\cf3\f3\par
+\tab\tab\cf4\}\f4\tab\tab\tab\tab\tab\tab\tab\tab\tab\cf0\highlight0\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>삽입정렬</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-04-01T09:38:13.0670146+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T11:01:19.0581026+09:00</UpdatedOn>
+  <Words>삽입정렬
+	- 현재 인덱스는 별로로 저장하고 그 다음 인덱스 부터 찾아 나아가고 찾으면 앞으로 밀어 넣는다.
+	-시간복잡도는 O(n)
+
+for (int i = 1; i &lt; count; i++)							
+		{									
+			int curIndex = i;						
+			int changeIndex = -1;					
+			for (int j = i-1; j &gt;=0 ; j--)				
+			{								
+				if (cur_dArray[curIndex] &lt; cur_dArray[j])		
+				{							
+					changeIndex = j - 1;				
+					if (changeIndex &lt;= 0)			
+						changeIndex = 0;			
+				}							
+			}								
+			if (changeIndex != -1)					
+			{								
+				int tmp;						
+				tmp = cur_dArray[curIndex];				
+				for (int k = curIndex; k &gt; 0; k--)			
+					cur_dArray[k] = cur_dArray[k - 1];		
+				cur_dArray[changeIndex] = tmp;			
+				Show();						
+			}								
+		}									</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

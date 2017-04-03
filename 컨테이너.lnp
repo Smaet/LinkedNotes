@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>f71dcd2a-1b0c-4e82-9207-5d7aae1f7583</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f1\fs20\par
+\pard\f0\fs18\tab - \'b5\'bf\'c0\'cf\'c7\'d1 \'c5\'b8\'c0\'d4\'c0\'c7 \'b0\'b4\'c3\'bc\'b8\'a6 \'c0\'fa\'c0\'e5 , \'b0\'fc\'b8\'ae\'c7\'d2 \'b8\'f1\'c0\'fb\'c0\'b8\'b7\'ce \'b8\'b8\'b5\'e7 (\'c3\'df\'bb\'f3\'c8\'ad\'c7\'d1)\'c5\'ac\'b7\'a1\'bd\'ba\par
+\tab * \'c1\'be\'b7\'f9\par
+\tab 1. \'c7\'a5\'c1\'d8 \'bd\'c3\'c4\'fd\'bd\'ba \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca (\f1 Standard Sequence container)\par
+\tab\tab - Vector, List, dequeue, String\fs20  (\f0\fs18\'bc\'b1\'c7\'fc \'b9\'e6\'bd\'c4)\par
+\tab 2. \'c7\'a5\'c1\'d8 \'bf\'ac\'b0\'fc \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca (\f1 Standard asscoiative container)\par
+\tab\tab - Set, MutiSet, Map, MultiMap\fs20\par
+\tab * \f0\fs18\'c1\'be\'b7\'f9 (\'b8\'de\'b8\'f0\'b8\'ae\f1\fs20  \f0\fs18\'c0\'fa\'c0\'e5 \'b4\'dc\'c0\'a7\'bf\'a1 \'b5\'fb\'b6\'f3)\par
+\tab 1. \'bf\'ac\'bc\'d3 \'b8\'de\'b8\'f0\'b8\'ae\f1\fs20  \f0\fs18\'b1\'e2\'b9\'dd \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca (\f1 Contiquouse Memory)\par
+\tab\tab - \f0\'ba\'b8\'c5\'eb \'bf\'a9\'b7\'af\'b0\'b3\'c0\'c7 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'c7\'cf\'b3\'aa\'c0\'c7 \'b8\'de\'b8\'f0\'b8\'ae\f1\fs20  \f0\fs18\'b4\'dc\'c0\'a7\'bf\'a1 \'c0\'fa\'c0\'e5\'b5\'c8\'b4\'d9. ( \f1 Vector, String, Dequeue)\par
+\tab 2. \f0\'b3\'eb\'b5\'e5 \'b1\'e2\'b9\'dd \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca (\f1 Node Based)\par
+\tab\tab - \f0\'b5\'a5\'c0\'cc\'c5\'cd \'c7\'cf\'b3\'aa\'b8\'a6 \'c7\'cf\'b3\'aa\'c0\'c7 \'b8\'de\'b8\'f0\'b8\'ae\'bf\'a1 \'c0\'fa\'c0\'e5 (\f1 List, Set, MutiSet,Map,MutiMap)\par
+\tab\par
+\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>컨테이너</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:08:17.2569899+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T10:59:12.7979943+09:00</UpdatedOn>
+  <Words>컨테이너
+	- 동일한 타입의 객체를 저장 , 관리할 목적으로 만든 (추상화한)클래스
+	* 종류
+	1. 표준 시퀸스 컨테이너 (Standard Sequence container)
+		- Vector, List, dequeue, String (선형 방식)
+	2. 표준 연관 컨테이너 (Standard asscoiative container)
+		- Set, MutiSet, Map, MultiMap
+	* 종류 (메모리 저장 단위에 따라)
+	1. 연속 메모리 기반 컨테이너 (Contiquouse Memory)
+		- 보통 여러개의 데이터가 하나의 메모리 단위에 저장된다. ( Vector, String, Dequeue)
+	2. 노드 기반 컨테이너 (Node Based)
+		- 데이터 하나를 하나의 메모리에 저장 (List, Set, MutiSet,Map,MutiMap)
+	
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>f3ee4107-aa38-4798-991f-c5ecbad0a58f</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset0 Microsoft Sans Serif;}{\f3\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f4\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 3D\f1\'b0\'f8\'b0\'a3 \'ba\'af\'c8\'af\f2\fs20\par
+\pard\f1\fs20\tab 1. \f2 Local Space(\f1\'b9\'b0\'c3\'bc \'b0\'f8\'b0\'a3)\par
+\tab\tab - \f3\'b0\'a2 3\f2 D\fs20  \f3\fs18\'bf\'c0\'ba\'ea\'c1\'a7\'c6\'ae\'b0\'a1 \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'b4\'c2 \'c0\'da\'bd\'c5\'b8\'b8\'c0\'c7 \'c1\'c2\'c7\'a5\'b0\'e8\par
+\tab 2. \f2 World Space(\f3\'bf\'f9\'b5\'e5 \'b0\'f8\'b0\'a3)\par
+\tab\tab -3\f2 D\fs20  \f3\fs18\'bf\'c0\'ba\'ea\'c1\'a7\'c6\'ae\'b8\'a6 \'b0\'a1\'bb\'f3\'c0\'c7 \'bf\'f9\'b5\'e5 \'b0\'f8\'b0\'a3\'bf\'a1 \'b3\'f5\'be\'c6 \'bf\'f9\'b5\'e5 \'b0\'f8\'b0\'a3\'c0\'c7 \'bf\'f8\'c1\'a1\'bf\'a1\'bc\'ad 3\f2 D\fs20  \f3\fs18\'bf\'c0\'ba\'ea\'c1\'a7\'c6\'ae\'b0\'a1 \'c0\'a7\'c4\'a1\'c7\'d8 \'c0\'d6\'b4\'c2 \'c1\'c2\'c7\'a5\par
+\tab 3. \f2 View Space(\f3\'ba\'e4 \'b0\'f8\'b0\'a3)\par
+\tab\tab - \'c4\'ab\'b8\'de\'b6\'f3\'b0\'a1 \'b9\'d9\'b6\'f3\'ba\'b8\'b4\'c2 \'b0\'f8\'b0\'a3\'c0\'c7 \'bf\'f8\'c1\'a1\'bf\'a1\'bc\'ad 3\f2 D\fs20  \f3\fs18\'bf\'c0\'ba\'ea\'c1\'a7\'c6\'ae\'b0\'a1 \'c0\'a7\'c4\'a1\'c7\'d1 \'c1\'c2\'c7\'a5\par
+\tab 4. \f2 Projection Space(\f3\'c5\'f5\'bf\'b5 \'b0\'f8\'b0\'a3)\par
+\tab\tab - \f2 View Space\f3\'b8\'a6 2\f2 D\f3  \'c0\'cc\'b9\'cc\'c1\'f6 \'c0\'a7\'bf\'a1 \'c5\'f5\'bf\'b5 \'c5\'f5\'bf\'b5\'b0\'f8\'b0\'a3\'bf\'a1\'bc\'ad \'c5\'f5\'bd\'c3\'b0\'a1 \'c0\'fb\'bf\'eb\'b5\'ca\par
+\tab\tab\par
+\tab * \b\'b0\'f8\'b0\'a3\'ba\'af\'c8\'af\b0\par
+\tab\f1\fs20  \f2 Local Matrix * World Matrix * View Matrix * Projection Matrix \par
+\tab - \f1\'b0\'a3\'b7\'ab\'c7\'d1 \'bc\'f8\'bc\'ad\par
+\tab\'b0\'b4\'c3\'bc \'b0\'f8\'b0\'a3 -&gt; \'b8\'f0\'b5\'a8 \'ba\'af\'c8\'af -(\'bc\'bc\'b0\'e8\'b0\'f8\'b0\'a3)-&gt; \'bd\'c3\'c1\'a1 \'ba\'af\'c8\'af -(\'bd\'c3\'c1\'a1 \'b0\'f8\'b0\'a3)-&gt; \'c5\'f5\'bf\'b5\'ba\'af\'c8\'af -(\'c0\'fd\'b4\'dc\'b0\'f8\'b0\'a3)-&gt; \'bf\'f8\'b1\'d9 \'b3\'aa\'b4\'b0\'bc\'c0 -(\'c1\'a4\'b1\'d4\'c8\'ad\'b5\'c8 \'c0\'e5\'c4\'a1 \'b0\'f8\'b0\'a3)-&gt;\'ba\'e4\'c6\'f7\'c6\'ae \'b1\'d7\'b8\'ae\'b0\'ed \'b1\'ed\'c0\'cc \'b9\'fc\'c0\'a7 \'ba\'af\'c8\'af -&gt; \'c0\'a9\'b5\'b5\'bf\'ec \'b0\'f8\'b0\'a3\f2\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>공간변환</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-27T17:29:26.7983887+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-27T17:37:28.7446417+09:00</UpdatedOn>
+  <Words>3D공간 변환
+	1. Local Space(물체 공간)
+		- 각 3D 오브젝트가 가지고 있는 자신만의 좌표계
+	2. World Space(월드 공간)
+		-3D 오브젝트를 가상의 월드 공간에 놓아 월드 공간의 원점에서 3D 오브젝트가 위치해 있는 좌표
+	3. View Space(뷰 공간)
+		- 카메라가 바라보는 공간의 원점에서 3D 오브젝트가 위치한 좌표
+	4. Projection Space(투영 공간)
+		- View Space를 2D 이미지 위에 투영 투영공간에서 투시가 적용됨
+		
+	* 공간변환
+	 Local Matrix * World Matrix * View Matrix * Projection Matrix 
+	- 간략한 순서
+	객체 공간 -&gt; 모델 변환 -(세계공간)-&gt; 시점 변환 -(시점 공간)-&gt; 투영변환 -(절단공간)-&gt; 원근 나눗셈 -(정규화된 장치 공간)-&gt;뷰포트 그리고 깊이 범위 변환 -&gt; 윈도우 공간</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

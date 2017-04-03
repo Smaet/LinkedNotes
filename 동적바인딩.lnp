@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>d3166b97-a6c8-4513-b4dd-941679a3fc14</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20\'c4\'c4\'c6\'c4\'c0\'cf\'bd\'c3\'bf\'a1 \'be\'ee\'b6\'b2 \'c7\'d4\'bc\'f6\'b0\'a1 \'bd\'c7\'c7\'e0\'b5\'c9\'c1\'f6 \'c1\'a4\'c7\'d8\'c1\'f6\'c1\'f6\'be\'ca\'b0\'ed \'b7\'b1\'c5\'b8\'c0\'d3 \'bd\'c3\'bf\'a1 \'c1\'a4\'c7\'d8\'c1\'f6\'b4\'c2 \'c0\'cf\'c0\'bb \'b8\'bb\'c7\'d1\'b4\'d9.\f1\par
+\f0{\pntext\f2\'B7\tab}\'bf\'b9) \'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f1\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>동적바인딩</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-04-03T09:43:30.0783026+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-04-03T10:33:09.5543002+09:00</UpdatedOn>
+  <Words>컴파일시에 어떤 함수가 실행될지 정해지지않고 런타임 시에 정해지는 일을 말한다.
+예) 가상함수</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

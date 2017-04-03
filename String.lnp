@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>82242283-7003-456d-a2ee-ae06b09a1cf9</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 String\par
+\pard\tab - STL\f1\'c0\'c7 \'b9\'ae\'c0\'da\'bf\'ad\'c0\'bb \'b4\'d9\'b7\'e7\'b4\'c2 \'c0\'fc\'bf\'eb \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'b0\'a1 string\'c0\'d4\'b4\'cf\'b4\'d9\par
+\tab - string\'b0\'fa wstring\'c0\'ba \'c0\'fa\'c0\'e5 \'b9\'d9\'c0\'cc\'c6\'ae \'bc\'f6\'b8\'b8 \'b4\'d9\'b8\'a6 \'bb\'d3 \'b8\'f0\'b5\'e7 \'b8\'e2\'b9\'f6\'bf\'cd \'b1\'e2\'b4\'c9\'c0\'ba \'b0\'b0\'bd\'c0\'b4\'cf\'b4\'d9.(basic_string&lt;&gt;\'c0\'c7 typedef\'c0\'cf \'bb\'d3\'c0\'cc\'b9\'c7\'b7\'ce)\par
+\tab - \fs18\'bd\'c3\'c4\'fd\'bd\'ba \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0\fs20  \f1\fs18\'c0\'cc\'b8\'e7 \'bf\'ac\'bc\'d3\'b8\'de\'b8\'f0\'b8\'ae\'b1\'e2\'b9\'dd\'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\f0\fs20  \f1\fs18\'c0\'cc\'b8\'e7 \f0 Vector\f2\'bf\'cd \'ba\'f1\'bd\'c1\'c7\'d1 \'c6\'af\'c2\'a1\'c0\'bb \'b0\'b0\'b4\'c2\'b4\'d9.\par
+\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>String</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-28T10:06:55.9516654+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-28T12:22:32.2661675+09:00</UpdatedOn>
+  <Words>String
+	- STL의 문자열을 다루는 전용 컨테이너가 string입니다
+	- string과 wstring은 저장 바이트 수만 다를 뿐 모든 멤버와 기능은 같습니다.(basic_string&lt;&gt;의 typedef일 뿐이므로)
+	- 시퀸스 컨테이너 이며 연속메모리기반컨테이너 이며 Vector와 비슷한 특징을 같는다.
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>33730301-fa57-4623-af3a-661ce589c1cb</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 RenderingPipeline\par
+\pard\tab - \f1\fs18\'bc\'f8\'bc\'ad\par
+\tab  1. \'b7\'ce\'c4\'c3 \'ba\'af\'c8\'af -&gt; 2. \'bf\'f9\'b5\'e5 \'ba\'af\'c8\'af -&gt; 3. \'ba\'e4 \'ba\'af\'c8\'af -&gt; 4. \'c8\'c4\'b8\'e9 \'c3\'df\'b7\'c1\'b3\'bb\'b1\'e2 -&gt; 5. \'c1\'b6\'b8\'ed -&gt; 6. \'c5\'d7\'bc\'bf\'b7\'b9\'c0\'cc\'bc\'c7 -&gt; 7. \'c5\'ac\'b8\'ae\'c7\'ce\par
+8. \'c5\'f5\'bf\'b5 -&gt; 9. \'ba\'e4\'c6\'f7\'c6\'ae -&gt; 10. \'b7\'a1\'bd\'ba\'c5\'cd \'b6\'f3\'c0\'cc\'c1\'ee -&gt; 11. \'c5\'d8\'bd\'ba\'c3\'b3 \'c0\'fb\'bf\'eb -&gt; 12. \'b7\'bb\'b4\'f5 \'b9\'e9\'bf\'a3\'b5\'e5 -&gt; 13. \'c3\'e2\'b7\'c2\par
+\tab - \'b0\'f8\'b0\'a3\'ba\'af\'c8\'af\f0\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>RenderingPipeline</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-27T11:38:16.8131028+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-27T17:42:09.2477594+09:00</UpdatedOn>
+  <Words>RenderingPipeline
+	- 순서
+	 1. 로컬 변환 -&gt; 2. 월드 변환 -&gt; 3. 뷰 변환 -&gt; 4. 후면 추려내기 -&gt; 5. 조명 -&gt; 6. 테셀레이션 -&gt; 7. 클리핑
+8. 투영 -&gt; 9. 뷰포트 -&gt; 10. 래스터 라이즈 -&gt; 11. 텍스처 적용 -&gt; 12. 렌더 백엔드 -&gt; 13. 출력
+	- 공간변환</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
+  <PublishedService>0</PublishedService>
+</Page>

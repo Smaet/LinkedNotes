@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>87f3ebe8-c94e-49a5-a00b-22002a6481c6</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'c0\'af\'b4\'cf\'c4\'da\'b5\'e5\f1\fs20\par
+\pard\f0\fs18\tab - \'c0\'af\'b4\'cf\'c4\'da\'b5\'e5\'b4\'c2 1\'b9\'d9\'c0\'cc\'c6\'ae\'b7\'ce \'c7\'a5\'c7\'f6\'c7\'d2 \'bc\'f6 \'be\'f8\'b4\'c2 \'b9\'ae\'c0\'da\'b8\'a6 \'ba\'f1\'b7\'d4\'c7\'cf\'bf\'a9 \'b8\'f0\'b5\'e7 \'b9\'ae\'c0\'da \'c1\'fd\'c7\'d5\'c0\'bb \'c1\'f6\'bf\'f8\'c7\'cf\'b4\'c2 \'bb\'e7\'be\'e7\par
+\tab - \'bc\'fd\'c0\'da\'bf\'cd \'b1\'db\'c0\'da, \'c1\'ef \'c5\'b0\'bf\'cd \'b0\'aa\'c0\'cc 1:1\'b7\'ce \'b8\'c5\'c7\'ce\'b5\'c8 \'c7\'fc\'c5\'c2\'c0\'c7 \'c4\'da\'b5\'e5 \par
+\tab - \'c0\'af\'b4\'cf\'c4\'da\'b5\'e5\'b4\'c2 \'c7\'f6\'c1\'b8\'c7\'cf\'b4\'c2 \'b9\'ae\'c0\'da \'c0\'ce\'c4\'da\'b5\'f9 \'b9\'e6\'b9\'fd\'b5\'e9\'c0\'bb \'b8\'f0\'b5\'ce \'c0\'af\'b4\'cf\'c4\'da\'b5\'e5\'b7\'ce \'b1\'b3\'c3\'bc\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'b8\'f1\'c0\'fb\par
+\tab\par
+\f1\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>유니코드</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:17:33.6250633+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:17:33.6250633+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-27T10:17:30.0288004+09:00</UpdatedOn>
+  <Words>유니코드
+	- 유니코드는 1바이트로 표현할 수 없는 문자를 비롯하여 모든 문자 집합을 지원하는 사양
+	- 숫자와 글자, 즉 키와 값이 1:1로 매핑된 형태의 코드 
+	- 유니코드는 현존하는 문자 인코딩 방법들을 모두 유니코드로 교체하는 것이 목적
+	
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PageId>5a9c35bd-abbe-4d4f-9e3a-bc563cdc2b62</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil Microsoft Sans Serif;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fmodern\fprq1\fcharset0 ??;}{\f3\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f4\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 Tessellator\f1\fs20\par
+\pard\f2\fs20\tab - \f3\'c6\'fa\'b8\'ae\'b0\'ef\'c0\'bb \'b3\'aa\'b4\'a9\'b4\'c2 \'b0\'fa\'c1\'a4\par
+\f1\fs20\par
+}
+&#x0;</Text>
+  <Encrypted>false</Encrypted>
+  <Name>Tessellator</Name>
+  <CreatedBy>Anonymous</CreatedBy>
+  <CreatedOn>2017-03-27T17:25:56.8539853+09:00</CreatedOn>
+  <UpdatedBy>Anonymous</UpdatedBy>
+  <UpdatedOn>2017-03-27T17:26:14.6536166+09:00</UpdatedOn>
+  <Words>Tessellator
+	- 폴리곤을 나누는 과정
+</Words>
+  <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedService>0</PublishedService>
+</Page>

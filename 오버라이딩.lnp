@@ -1,12 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>ddc4d021-02cc-45f9-9d2c-0d46015ce8a9</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f1\fnil\fcharset0 Microsoft Sans Serif;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil\fcharset2 Symbol;}}
+\viewkind4\uc1\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs18\'bf\'c0\'b9\'f6\'b6\'f3\'c0\'cc\'b5\'f9\f1\fs20\par
+\pard\f0\fs18\tab - \'ba\'ce\'b8\'f0\'bf\'cd \'c0\'da\'bd\'c4\'c0\'c7 \'bb\'f3\'bc\'d3\'b0\'fc\'b0\'e8\'bf\'a1\'bc\'ad \'ba\'ce\'b8\'f0\'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1\'bc\'ad \'c0\'cc\'b9\'cc \'c1\'a4\'c0\'c7\'b5\'c8 \'c7\'d4\'bc\'f6\'b8\'a6 \'b4\'d9\'bd\'c3 \'c0\'da\'bd\'c4 \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1\'bc\'ad \'c0\'e7\'c1\'a4\'c0\'c7 \'c7\'cf\'b4\'c2\'b0\'cd.\par
+\tab - \'c0\'cc\'b6\'a7 \'ba\'ce\'b8\'f0\'c0\'c7 \'b8\'e2\'b9\'f6\'c7\'d4\'bc\'f6\'c0\'c7 \'bf\'f8\'c7\'fc\'b0\'fa \'bf\'cf\'c0\'fc\'c8\'f7 \'b0\'b0\'be\'c6\'be\'df\'c7\'cf\'b0\'ed \'bf\'c0\'b9\'f6\'b6\'f3\'c0\'cc\'b5\'f9\'bd\'c3 \'ba\'ce\'b8\'f0\'c0\'c7 \'c7\'d4\'bc\'f6\'b4\'c2 \'b0\'a1\'b7\'c1\'c1\'f8\'b4\'d9.(\'c8\'a3\'c3\'e2\'c0\'ba \'c0\'da\'bd\'c4\'c0\'c7 \'c7\'d4\'bc\'f6\'b8\'b8 \'b5\'c8\'b4\'d9.)\par
+\tab - \'b8\'b8\'be\'e0 \'ba\'ce\'b8\'f0\'c0\'c7 \'c7\'d4\'bc\'f6\'b8\'a6 \'c8\'a3\'c3\'e2\'c7\'d2\'b7\'c1\'b8\'e9 ::(\'b9\'fc\'c0\'a7 \'c1\'f6\'c1\'a4 \'bf\'ac\'bb\'ea\'c0\'da\'b7\'ce \'c8\'a3\'c3\'e2 \'c7\'d1\'b4\'d9).\par
+\'bf\'b9)\par
+\tab class B : public A \{\par
+\tab\tab public:\par
+   \tab\tab\tab  void over() \{ \b\f2 A::over(); \b0\f0 cout &lt;&lt; "B \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 over \'c7\'d4\'bc\'f6 \'c8\'a3\'c3\'e2!" &lt;&lt; endl; \}\par
+\par
+\tab\tab\tab\};\par
+\tab\f1 int\f0  \f1 main()\line\tab\{\line\tab\tab A *p_A = new A;\par
+\tab\tab p_A-&gt;over();\par
+\tab\tab B *p_B = new B;\par
+\tab\tab p_B-&gt;over();\par
+\tab\tab A *pp_B = new B;\par
+\tab\tab pp_B-&gt;over();\line\line\tab\}\par
+\par
+\tab - p_A-&gt;over(); \f2\'b4\'c2 \f1 A\f2\'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \f1 over\f2\'c0\'bb \'c8\'a3\'c3\'e2\par
+\tab - \f1 p_B-&gt;over(); \f2\'b4\'c2 \f1 B\f2\'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \f1 over\f2\'b8\'a6 \'c8\'a3\'c3\'e2\par
+\tab - \f1 pp_B-&gt;over();\f2\'b4\'c2 \f1 A\f2\'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \f1 over\f2\'b8\'a6 \'c8\'a3\'c3\'e2\par
+\par
+\tab - \'c3\'b9\'b9\'f8\'a4\'8a\'bf\'cd \'b5\'ce\'b9\'f8\'a4\'8a\'b4\'c2 \'c0\'d6\'b4\'c2 \'b1\'d7\'b4\'eb\'b7\'ce \'b3\'aa\'bf\'c0\'c1\'f6\'b8\'b8 3\'b9\'f8\'c2\'b0\'b4\'c2 \'c7\'d2\'b4\'e7\'c0\'ba \f1 B\f2\'c5\'ac\'b7\'a1\'bd\'ba\'b7\'ce \'c7\'df\'c1\'f6\'b8\'b8 \'b3\'aa\'bf\'c0\'b4\'c2\'b0\'cd\'c0\'ba \f1 A\f2\'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1 \'c0\'d6\'b4\'c2\f1  over\f2\'c0\'cc \'b3\'aa\'bf\'c2\'b4\'d9 \'bf\'d6\'b3\'c4\'b8\'e9 \'bf\'c0\'b9\'f6\'b6\'f3\'c0\'cc\'b5\'f9 \'b5\'c7\'be\'ee\'c0\'d6\'b4\'c2 \'c7\'d4\'bc\'f6\'b4\'c2 \'bc\'b1\'be\'f0\'c7\'d1 \'c7\'fc\'bd\'c4 \'c5\'ac\'b7\'a1\'bd\'ba\'b8\'a6 \'bf\'ec\'bc\'b1\'c0\'fb\'c0\'b8\'b7\'ce \'b5\'fb\'b6\'f3\'b0\'a1\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1 \f1 A\f2\'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1 \'c0\'d6\'b4\'c2 \f1 over\f2\'b0\'a1 \'b3\'aa\'bf\'c2\'b4\'d9 \'b1\'d7\'b0\'cd\'c0\'bb \'c7\'d8\'b0\'e1\'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d1\'b0\'cd\'c0\'cc \'b9\'d9\'b7\'ce \f1 virtual \f2\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6\f0  \'c0\'cc\'b4\'d9.\par
+\tab\par
+\tab - \'c7\'d4\'bc\'f6\'b8\'a6 \'bf\'c0\'b9\'f6\'b6\'f3\'c0\'cc\'b5\'f9\'c7\'cf\'b4\'c2 \'c0\'cc\'c0\'af\'b4\'c2 \'b0\'b4\'c3\'bc\'b8\'a6 \'b0\'a1\'b8\'ae\'c5\'b0\'b4\'c2 \'c6\'f7\'c0\'ce\'c5\'cd \'ba\'af\'bc\'f6\'b0\'a1 \'c7\'f6\'c0\'e7 \'c0\'da\'bd\'c5\'c0\'cc \'b0\'a1\'b8\'ae\'c5\'b0\'b0\'ed \'c0\'d6\'b4\'c2 \'b0\'b4\'c3\'bc\'c0\'c7 \'b8\'e2\f2\'b9\'f6\'b0\'a1\f0\'c8\'a3\'c3\'e2 \'b5\'c7\'b5\'b5\'b7\'cf \'c7\'cf\'b1\'e2 \'c0\'a7\'c7\'d4\'c0\'cc\'b4\'d9. \'b8\'b8\'be\'e0 \'c6\'f7\'c0\'ce\'c5\'cd\'c0\'c7 \'c0\'da\'b7\'e1\'c7\'fc\'c0\'bb \'c0\'cc\'c0\'af\'b7\'ce \'c0\'da\'b7\'e1\'c7\'fc\'c0\'c7 \'c5\'ac\'b7\'a1\'bd\'ba\'c0\'c7 \'b8\'e2\'b9\'f6\'c7\'d4\'bc\'f6\'b0\'a1 \'c8\'a3\'c3\'e2\'b5\'c8\'b4\'d9\'b8\'e9 \'c0\'cc\'b0\'c7 \'ba\'d0\'b8\'ed \par
+\'c0\'df\'b8\'f8\'b5\'c8\'b0\'cd\'c0\'cc\'b4\'d9. \'b5\'fb\'b6\'f3\'bc\'ad C++\'bf\'a1\'bc\'ad\'b4\'c2 '\'b0\'a1\'bb\'f3\'c7\'d4\'bc\'f6'\'b6\'f3\'b4\'c2 \'b0\'cd\'c0\'bb \'c1\'a6\'b0\'f8\'c7\'cf\'b0\'ed\'c0\'d6\'b4\'d9.\par
+\par
+\tab -  \b\f2\'c6\'f7\'c0\'ce\'c5\'cd\'c0\'c7 \'c0\'da\'b7\'e1\'c7\'fc(\'b0\'b4\'c3\'bc)\'bf\'a1 \'b5\'fb\'b6\'f3 \'b0\'a1\'b8\'ae\'c5\'b0\'b4\'c2 \'b4\'eb\'bb\'f3\'bf\'a1 \'b0\'fc\'b0\'e8\'be\'f8\'c0\'cc \'c5\'ac\'b7\'a1\'bd\'ba\'bf\'a1 \'c1\'a4\'c0\'c7\'b5\'c8 \'b8\'e2\'b9\'f6\'bf\'a1\'b8\'b8 \'c1\'a2\'b1\'d9\'b0\'a1\'b4\'c9\'c7\'cf\'b4\'d9.\b0\f0\par
+\par
+\par
+\f1\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>오버라이딩</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:26:43.7884074+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:26:43.7884074+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-27T11:02:12.8038004+09:00</UpdatedOn>
+  <Words>오버라이딩
+	- 부모와 자식의 상속관계에서 부모클래스에서 이미 정의된 함수를 다시 자식 클래스에서 재정의 하는것.
+	- 이때 부모의 멤버함수의 원형과 완전히 같아야하고 오버라이딩시 부모의 함수는 가려진다.(호출은 자식의 함수만 된다.)
+	- 만약 부모의 함수를 호출할려면 ::(범위 지정 연산자로 호출 한다).
+예)
+	class B : public A {
+		public:
+   			 void over() { A::over(); cout &lt;&lt; "B 클래스의 over 함수 호출!" &lt;&lt; endl; }
+
+			};
+	int main()
+	{
+		A *p_A = new A;
+		p_A-&gt;over();
+		B *p_B = new B;
+		p_B-&gt;over();
+		A *pp_B = new B;
+		pp_B-&gt;over();
+
+	}
+
+	- p_A-&gt;over(); 는 A클래스의 over을 호출
+	- p_B-&gt;over(); 는 B클래스의 over를 호출
+	- pp_B-&gt;over();는 A클래스의 over를 호출
+
+	- 첫번쨰와 두번쨰는 있는 그대로 나오지만 3번째는 할당은 B클래스로 했지만 나오는것은 A클래스에 있는 over이 나온다 왜냐면 오버라이딩 되어있는 함수는 선언한 형식 클래스를 우선적으로 따라가기 때문에 A클래스에 있는 over가 나온다 그것을 해결하기 위한것이 바로 virtual 가상함수 이다.
+	
+	- 함수를 오버라이딩하는 이유는 객체를 가리키는 포인터 변수가 현재 자신이 가리키고 있는 객체의 멤버가호출 되도록 하기 위함이다. 만약 포인터의 자료형을 이유로 자료형의 클래스의 멤버함수가 호출된다면 이건 분명 
+잘못된것이다. 따라서 C++에서는 '가상함수'라는 것을 제공하고있다.
+
+	-  포인터의 자료형(객체)에 따라 가리키는 대상에 관계없이 클래스에 정의된 멤버에만 접근가능하다.
+
+
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>

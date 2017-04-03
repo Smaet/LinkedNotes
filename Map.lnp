@@ -1,12 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PageId>484e836b-d237-4a47-aad7-541644b78a2d</PageId>
+  <Text>{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Microsoft Sans Serif;}{\f1\fmodern\fprq1\fcharset129 \'b1\'bc\'b8\'b2;}{\f2\fnil\fcharset129 \'b1\'bc\'b8\'b2;}{\f3\fnil NanumGothicCoding;}{\f4\fnil\fcharset0 NanumGothicCoding;}{\f5\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red0\green0\blue0;\red255\green255\blue255;\red43\green145\blue175;\red0\green0\blue255;}
+\viewkind4\uc1\pard{\pntext\f5\'B7\tab}{\*\pn\pnlvlblt\pnf5\pnindent0{\pntxtb\'B7}}\fi-300\li450\lang1042\f0\fs20 Map\par
+\pard\tab -  map\f1\'b5\'b5 set\'c3\'b3\'b7\'b3 \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c3\'df\'b0\'a1\'c7\'cf\'b4\'c2 push_? \'b7\'f9\'c0\'c7 \'c7\'d4\'bc\'f6\'b8\'a6 \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'c1\'f6 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9. \'bb\'f0\'c0\'d4(insert)\'c7\'d1\'b4\'d9\'b4\'c2 \'c0\'c7\'b9\'cc\'bf\'a1 insert() \'c7\'d4\'bc\'f6\'b8\'a6 \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\par
+\tab - map\'c0\'c7 \'c6\'af\'c2\'a1\'c0\'ba key\'bf\'cd value\'c0\'c7 \'bd\'d6\'c0\'b8\'b7\'ce \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'c0\'fa\'c0\'e5\'c7\'d5\'b4\'cf\'b4\'d9. \'b1\'d7\'b8\'ae\'b0\'ed key\'b0\'aa\'c0\'bb \'c0\'cc\'bf\'eb\'c7\'cf\'bf\'a9 \'ba\'fc\'b8\'a3\'b0\'d4 value\'b0\'aa\'c0\'bb \'c3\'a3\'c0\'bb \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'bf\'ac\'b0\'fc \'c4\'c1\'c5\'d7\'c0\'cc\'b3\'ca\'bf\'a1\'bc\'ad \b\f2\'c0\'af\'c0\'cf\'c7\'cf\'b0\'d4 [] \'bf\'ac\'bb\'ea\'c0\'da \'c1\'df\'ba\'b9\'c0\'bb \'c1\'a6\'b0\'f8\b0\f1\'c7\'d5\'b4\'cf\'b4\'d9.\par
+\tab - \f0 key\f2\fs18\'bf\'cd \f0 value\f2\'b4\'c2 \f0 Pair\f2\'b7\'ce \'b3\'aa\'c5\'c2 \'b3\'be\'bc\'f6 \'c0\'d6\'b4\'d9.\par
+\par
+\tab\'bf\'b9) [] \'bf\'ac\'bb\'ea\'c0\'da\par
+\par
+\tab\cf1\highlight2\f3\fs22 std::\cf3 map\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt; m;\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(5, 100));\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(1, 50));\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(2, 60));\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(7, 120));\par
+\par
+\tab std::cout &lt;&lt; m[5] &lt;&lt; std::endl;\par
+\tab std::cout &lt;&lt; m[1] &lt;&lt; std::endl;\par
+\tab std::cout &lt;&lt; m[2] &lt;&lt; std::endl;\par
+\tab std::cout &lt;&lt; m[7] &lt;&lt; std::endl;\par
+\f4\tab\par
+\tab - key\f2\'b0\'aa\'c0\'bb \'c0\'ce\'b5\'a6\'bd\'ba\'c3\'b3\'b7\'b3 \'bb\'e7\'bf\'eb\par
+\par
+\tab - \'b9\'dd\'ba\'b9\'c0\'da \'bb\'e7\'bf\'eb\'b0\'a1\'b4\'c9\par
+\par
+\tab\'bf\'b9)\par
+\f3\tab std::\cf3 map\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt; m;\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(5, 100));\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(1, 50));\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(2, 60));\par
+\tab m.insert(std::\cf3 pair\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;(7, 120));\par
+\par
+\tab std::\cf3 map\cf1 &lt;\cf4 int\cf1 , \cf4 int\cf1 &gt;::\cf3 iterator\cf1  iter_m;\par
+\f2\par
+\tab\cf4\f3 for\cf1  (iter_m = m.begin(); iter_m != m.end(); iter_m++)\par
+\tab\tab std::cout &lt;&lt; iter_m-&gt;second &lt;&lt; std::endl;\f2\par
+\cf0\highlight0\fs18\par
+\f0\fs20\par
+}
+&#x0;</Text>
   <Encrypted>false</Encrypted>
   <Name>Map</Name>
   <CreatedBy>Anonymous</CreatedBy>
   <CreatedOn>2017-03-25T16:20:38.2694015+09:00</CreatedOn>
   <UpdatedBy>Anonymous</UpdatedBy>
-  <UpdatedOn>2017-03-25T16:20:38.2694015+09:00</UpdatedOn>
+  <UpdatedOn>2017-03-28T12:19:11.3165086+09:00</UpdatedOn>
+  <Words>Map
+	-  map도 set처럼 데이터를 추가하는 push_? 류의 함수를 가지고 있지 않습니다. 삽입(insert)한다는 의미에 insert() 함수를 가지고 있습니다.
+	- map의 특징은 key와 value의 쌍으로 데이터를 저장합니다. 그리고 key값을 이용하여 빠르게 value값을 찾을 수 있습니다. 연관 컨테이너에서 유일하게 [] 연산자 중복을 제공합니다.
+	- key와 value는 Pair로 나태 낼수 있다.
+
+	예) [] 연산자
+
+	std::map&lt;int, int&gt; m;
+	m.insert(std::pair&lt;int, int&gt;(5, 100));
+	m.insert(std::pair&lt;int, int&gt;(1, 50));
+	m.insert(std::pair&lt;int, int&gt;(2, 60));
+	m.insert(std::pair&lt;int, int&gt;(7, 120));
+
+	std::cout &lt;&lt; m[5] &lt;&lt; std::endl;
+	std::cout &lt;&lt; m[1] &lt;&lt; std::endl;
+	std::cout &lt;&lt; m[2] &lt;&lt; std::endl;
+	std::cout &lt;&lt; m[7] &lt;&lt; std::endl;
+	
+	- key값을 인덱스처럼 사용
+
+	- 반복자 사용가능
+
+	예)
+	std::map&lt;int, int&gt; m;
+	m.insert(std::pair&lt;int, int&gt;(5, 100));
+	m.insert(std::pair&lt;int, int&gt;(1, 50));
+	m.insert(std::pair&lt;int, int&gt;(2, 60));
+	m.insert(std::pair&lt;int, int&gt;(7, 120));
+
+	std::map&lt;int, int&gt;::iterator iter_m;
+
+	for (iter_m = m.begin(); iter_m != m.end(); iter_m++)
+		std::cout &lt;&lt; iter_m-&gt;second &lt;&lt; std::endl;
+
+</Words>
   <PublishedOn>0001-01-01T00:00:00</PublishedOn>
+  <PublishedUrl />
   <PublishedService>0</PublishedService>
 </Page>
